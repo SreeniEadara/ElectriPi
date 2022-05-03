@@ -1990,6 +1990,7 @@
     (uuid f1620bd0-127d-41a4-a7ad-b74a625d7ae0)
   )
 
+  (no_connect (at 164.846 82.423) (uuid 029176b9-3637-4fc7-acd1-188e38f8d041))
   (no_connect (at 141.986 133.223) (uuid acd1c17f-cb38-4d2f-bbc1-5a8d35dcd841))
   (no_connect (at 141.986 125.603) (uuid acd1c17f-cb38-4d2f-bbc1-5a8d35dcd842))
   (no_connect (at 141.986 123.063) (uuid acd1c17f-cb38-4d2f-bbc1-5a8d35dcd843))
@@ -2009,7 +2010,7 @@
   (no_connect (at 141.986 100.203) (uuid acd1c17f-cb38-4d2f-bbc1-5a8d35dcd853))
   (no_connect (at 141.986 102.743) (uuid acd1c17f-cb38-4d2f-bbc1-5a8d35dcd854))
   (no_connect (at 182.626 100.203) (uuid ded0a55b-1073-495b-813b-b8779f1b8ce2))
-  (no_connect (at 182.626 102.743) (uuid ded0a55b-1073-495b-813b-b8779f1b8ce2))
+  (no_connect (at 182.626 102.743) (uuid ded0a55b-1073-495b-813b-b8779f1b8ce3))
   (no_connect (at 191.897 69.977) (uuid fab86626-9260-47f6-9fcf-4911836619b7))
 
   (wire (pts (xy 139.065 52.959) (xy 150.495 52.959))
@@ -2472,10 +2473,10 @@
     (property "Reference" "J3" (id 0) (at 77.216 37.8459 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Conn_01x02" (id 1) (at 77.216 40.3859 90)
+    (property "Value" "" (id 1) (at 77.216 40.3859 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" (id 2) (at 72.009 39.116 0)
+    (property "Footprint" "" (id 2) (at 72.009 39.116 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 72.009 39.116 0)
@@ -2875,22 +2876,6 @@
     (pin "1" (uuid ac66608e-1bf3-4e03-b186-358cf3ff700b))
   )
 
-  (symbol (lib_id "power:+3V3") (at 164.846 82.423 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 553b4831-05b8-4441-855c-40148b2c48fb)
-    (property "Reference" "#PWR024" (id 0) (at 164.846 86.233 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (id 1) (at 164.846 76.962 90))
-    (property "Footprint" "" (id 2) (at 164.846 82.423 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 164.846 82.423 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d6d9c2f6-b318-435f-9589-ca0ff63a7aca))
-  )
-
   (symbol (lib_id "power:GND") (at 57.531 100.711 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5617c1e9-a065-416b-bb66-eca08e9f071b)
@@ -3275,8 +3260,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9a87bfc4-c304-4037-8ceb-f6545574a9e8)
     (property "Reference" "F1" (id 0) (at 30.861 89.281 90))
-    (property "Value" "" (id 1) (at 30.861 91.821 90))
-    (property "Footprint" "" (id 2) (at 30.861 97.409 90)
+    (property "Value" "5A" (id 1) (at 30.861 91.821 90))
+    (property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_154x" (id 2) (at 30.861 97.409 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 30.861 95.631 0)
@@ -4108,9 +4093,6 @@
     (path "/36a04448-561b-40b7-a394-fe95f904e731"
       (reference "#PWR023") (unit 1) (value "GND") (footprint "")
     )
-    (path "/553b4831-05b8-4441-855c-40148b2c48fb"
-      (reference "#PWR024") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/51d4578a-55f0-4e98-8752-c651b3a2d606"
       (reference "#PWR025") (unit 1) (value "GND") (footprint "")
     )
@@ -4250,7 +4232,7 @@
       (reference "J2") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left")
     )
     (path "/12571268-be51-457b-85b9-1c2e7398dddd"
-      (reference "J3") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical")
+      (reference "J3") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal")
     )
     (path "/b0d40fbf-eaab-4638-8138-e4a813009096"
       (reference "J5") (unit 1) (value "Conn_01x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left")
