@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 5.4,
-          "width": 2.9
+          "height": 2.5,
+          "width": 4.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -433,10 +433,6 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
-    ],
-    [
-      "09392cad-5ee1-47cb-95a6-1642e047381f",
-      "I2C_UART_SPI Breakout"
     ]
   ],
   "text_variables": {}
