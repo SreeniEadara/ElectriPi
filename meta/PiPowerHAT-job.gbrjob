@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.4)"
     },
-    "CreationDate": "2022-05-06T21:58:48+01:00"
+    "CreationDate": "2022-05-11T18:11:56+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -66,6 +66,11 @@
     {
       "Path": "PiPowerHAT-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "PiPowerHAT-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
