@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\adam\OneDrive\Documents\GitHub\PiPowerHAT\PiPowerHAT.kicad_sch</source>
-    <date>06/05/2022 22:04:38</date>
+    <date>11/05/2022 13:21:53</date>
     <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -29,9 +29,15 @@
       <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
       <fields>
         <field name="LCSC">C176670</field>
+        <field name="ManfNum">VEJ221M1HTR-1010</field>
+        <field name="PCBway">VEJ221M1HTR-1010</field>
+        <field name="abv.Footprint">SMD-ECAP-10x10</field>
       </fields>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
       <property name="LCSC" value="C176670"/>
+      <property name="PCBway" value="VEJ221M1HTR-1010"/>
+      <property name="abv.Footprint" value="SMD-ECAP-10x10"/>
+      <property name="ManfNum" value="VEJ221M1HTR-1010"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -42,9 +48,15 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15849</field>
+        <field name="ManfNum">CL10A105KB8NNNC</field>
+        <field name="PCBway">CL10A105KB8NNNC</field>
+        <field name="abv.Footprint">0603</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C15849"/>
+      <property name="PCBway" value="CL10A105KB8NNNC"/>
+      <property name="abv.Footprint" value="0603"/>
+      <property name="ManfNum" value="CL10A105KB8NNNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -55,9 +67,15 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15849</field>
+        <field name="ManfNum">CL10A105KB8NNNC</field>
+        <field name="PCBway">CL10A105KB8NNNC</field>
+        <field name="abv.Footprint">0603</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C15849"/>
+      <property name="PCBway" value="CL10A105KB8NNNC"/>
+      <property name="abv.Footprint" value="0603"/>
+      <property name="ManfNum" value="CL10A105KB8NNNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -68,9 +86,15 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15849</field>
+        <field name="ManfNum">CL10A105KB8NNNC</field>
+        <field name="PCBway">CL10A105KB8NNNC</field>
+        <field name="abv.Footprint">0603</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C15849"/>
+      <property name="PCBway" value="CL10A105KB8NNNC"/>
+      <property name="abv.Footprint" value="0603"/>
+      <property name="ManfNum" value="CL10A105KB8NNNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -81,9 +105,15 @@
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <fields>
         <field name="LCSC">C58277</field>
+        <field name="ManfNum">RVT1A331M0607</field>
+        <field name="PCBway">RVT1A331M0607</field>
+        <field name="abv.Footprint">SMD_6.3x7.7mm</field>
       </fields>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
       <property name="LCSC" value="C58277"/>
+      <property name="PCBway" value="RVT1A331M0607"/>
+      <property name="abv.Footprint" value="SMD_6.3x7.7mm"/>
+      <property name="ManfNum" value="RVT1A331M0607"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -94,35 +124,53 @@
       <footprint>Diode_SMD:D_SMA</footprint>
       <fields>
         <field name="LCSC">C22452</field>
+        <field name="ManfNum">SS54</field>
+        <field name="PCBway">SS54</field>
+        <field name="abv.Footprint">DO-214AC</field>
       </fields>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <property name="LCSC" value="C22452"/>
+      <property name="PCBway" value="SS54"/>
+      <property name="abv.Footprint" value="DO-214AC"/>
+      <property name="ManfNum" value="SS54"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>80adc0a2-c38b-4c02-a9a6-e9d639d0764f</tstamps>
     </comp>
     <comp ref="D3">
-      <value>C72038</value>
+      <value>2.3V 20mA</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C72038</field>
+        <field name="ManfNum">19-213/Y2C-CQ2R2L/3T(CY)</field>
+        <field name="PCBway">19-213/Y2C-CQ2R2L/3T(CY)</field>
+        <field name="abv.Footprint">0603</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="LCSC" value="C72038"/>
+      <property name="PCBway" value="19-213/Y2C-CQ2R2L/3T(CY)"/>
+      <property name="abv.Footprint" value="0603"/>
+      <property name="ManfNum" value="19-213/Y2C-CQ2R2L/3T(CY)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>09682f05-b4e6-4e50-98a0-ce1e14e1d9ed</tstamps>
     </comp>
     <comp ref="D5">
-      <value>C72038</value>
+      <value>2.3V 20mA</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C72038</field>
+        <field name="ManfNum">19-213/Y2C-CQ2R2L/3T(CY)</field>
+        <field name="PCBway">19-213/Y2C-CQ2R2L/3T(CY)</field>
+        <field name="abv.Footprint">0603</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="LCSC" value="C72038"/>
+      <property name="PCBway" value="19-213/Y2C-CQ2R2L/3T(CY)"/>
+      <property name="abv.Footprint" value="0603"/>
+      <property name="ManfNum" value="19-213/Y2C-CQ2R2L/3T(CY)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -133,9 +181,15 @@
       <footprint>Diode_SMD:D_SMA</footprint>
       <fields>
         <field name="LCSC">C22452</field>
+        <field name="ManfNum">SS54</field>
+        <field name="PCBway">SS54</field>
+        <field name="abv.Footprint">DO-214AC</field>
       </fields>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <property name="LCSC" value="C22452"/>
+      <property name="PCBway" value="SS54"/>
+      <property name="abv.Footprint" value="DO-214AC"/>
+      <property name="ManfNum" value="SS54"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -146,9 +200,15 @@
       <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
       <fields>
         <field name="LCSC">C206916</field>
+        <field name="ManfNum">0154005.DR</field>
+        <field name="PCBway">0154005.DR</field>
+        <field name="abv.Footprint">SMD-2_5.03x9.73x3.81</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="LCSC" value="C206916"/>
+      <property name="PCBway" value="0154005.DR"/>
+      <property name="abv.Footprint" value="SMD-2_5.03x9.73x3.81"/>
+      <property name="ManfNum" value="0154005.DR"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -159,51 +219,72 @@
       <footprint>Inductor_SMD:L_12x12mm_H6mm</footprint>
       <fields>
         <field name="LCSC">C497913</field>
+        <field name="ManfNum">YSPI1365-470M</field>
+        <field name="PCBway">YSPI1365-470M</field>
+        <field name="abv.Footprint">12x12</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="LCSC" value="C497913"/>
+      <property name="PCBway" value="YSPI1365-470M"/>
+      <property name="abv.Footprint" value="12x12"/>
+      <property name="ManfNum" value="YSPI1365-470M"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d63a8b1e-b5ad-43cb-83cf-7743d8f69c2a</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>AO3401A</value>
+      <value>30V 4A 44mΩ</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
       <fields>
         <field name="LCSC">C15127</field>
+        <field name="ManfNum">AO3401A</field>
+        <field name="abv.Footprint">SOT-23</field>
       </fields>
       <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
       <property name="LCSC" value="C15127"/>
+      <property name="ManfNum" value="AO3401A"/>
+      <property name="abv.Footprint" value="SOT-23"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c8755866-f79b-4ab4-a0c4-e0f2438698a0</tstamps>
     </comp>
     <comp ref="Q2">
-      <value>MMDT5401</value>
+      <value>50nA 150V 200mW 200mA</value>
       <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
       <datasheet>http://www.diodes.com/_files/datasheets/ds30169.pdf</datasheet>
       <fields>
         <field name="LCSC">C54540</field>
+        <field name="ManfNum">MMDT5401</field>
+        <field name="PCBway">MMDT5401</field>
+        <field name="abv.Footprint">SOT-363</field>
       </fields>
       <libsource lib="Transistor_BJT" part="MMDT5401" description="200mA IC, 160V Vce, Dual PNP/PNP Transistors, SOT-363"/>
       <property name="LCSC" value="C54540"/>
+      <property name="PCBway" value="MMDT5401"/>
+      <property name="abv.Footprint" value="SOT-363"/>
+      <property name="ManfNum" value="MMDT5401"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c13a0798-2024-41d6-ae4a-b38e89f8cade 98582c58-179d-43e6-9d32-162946ffd54a</tstamps>
     </comp>
     <comp ref="Q3">
-      <value>AO3401A</value>
+      <value>30V 4A 44mΩ</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
       <fields>
         <field name="LCSC">C15127</field>
+        <field name="ManfNum">AO3401A</field>
+        <field name="abv.Footprint">SOT-23</field>
       </fields>
       <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
       <property name="LCSC" value="C15127"/>
+      <property name="PCBway" value=""/>
+      <property name="abv.Footprint" value="SOT-23"/>
+      <property name="ManfNum" value="AO3401A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -214,9 +295,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C25804</field>
+        <field name="ManfNum">0603WAF1002T5E</field>
+        <field name="PCBway">0603WAF1002T5E</field>
+        <field name="abv.Footprint">0402</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25804"/>
+      <property name="PCBway" value="0603WAF1002T5E"/>
+      <property name="abv.Footprint" value="0402"/>
+      <property name="ManfNum" value="0603WAF1002T5E"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -227,9 +314,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C25792</field>
+        <field name="ManfNum">0402WGF4702TCE</field>
+        <field name="PCBway">0402WGF4702TCE</field>
+        <field name="abv.Footprint">0402</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25792"/>
+      <property name="PCBway" value="0402WGF4702TCE"/>
+      <property name="abv.Footprint" value="0402"/>
+      <property name="ManfNum" value="0402WGF4702TCE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -240,9 +333,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C25087</field>
+        <field name="ManfNum">0402WGF2000TCE</field>
+        <field name="PCBway">0402WGF2000TCE</field>
+        <field name="abv.Footprint">0402</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25087"/>
+      <property name="PCBway" value="0402WGF2000TCE"/>
+      <property name="abv.Footprint" value="0402"/>
+      <property name="ManfNum" value="0402WGF2000TCE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -253,9 +352,15 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C25867</field>
+        <field name="ManfNum">0402WGF1501TCE</field>
+        <field name="PCBway">0402WGF1501TCE</field>
+        <field name="abv.Footprint">0402</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25867"/>
+      <property name="PCBway" value="0402WGF1501TCE"/>
+      <property name="abv.Footprint" value="0402"/>
+      <property name="ManfNum" value="0402WGF1501TCE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -266,9 +371,15 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C22978</field>
+        <field name="ManfNum">0603WAF3301T5E</field>
+        <field name="PCBway">0603WAF3301T5E</field>
+        <field name="abv.Footprint">0603</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C22978"/>
+      <property name="PCBway" value="0603WAF3301T5E"/>
+      <property name="abv.Footprint" value="0603"/>
+      <property name="ManfNum" value="0603WAF3301T5E"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -279,9 +390,15 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C25804</field>
+        <field name="ManfNum">0603WAF1002T5E</field>
+        <field name="PCBway">0603WAF1002T5E</field>
+        <field name="abv.Footprint">0603</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25804"/>
+      <property name="PCBway" value="0603WAF1002T5E"/>
+      <property name="abv.Footprint" value="0603"/>
+      <property name="ManfNum" value="0603WAF1002T5E"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -292,9 +409,15 @@
       <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
       <fields>
         <field name="LCSC">C51661</field>
+        <field name="ManfNum">XL4015E1</field>
+        <field name="PCBway">XL4015E1</field>
+        <field name="abv.Footprint">TO-263-5</field>
       </fields>
       <libsource lib="Regulator_Switching" part="XL4015" description=""/>
       <property name="LCSC" value="C51661"/>
+      <property name="PCBway" value="XL4015E1"/>
+      <property name="abv.Footprint" value="TO-263-5"/>
+      <property name="ManfNum" value="XL4015E1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
