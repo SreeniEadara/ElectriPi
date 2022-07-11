@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\adam\OneDrive\Documents\GitHub\PiPowerHAT\PiPowerHAT.kicad_sch</source>
-    <date>11/05/2022 13:21:53</date>
+    <source>C:\Users\adam\Documents\GitHub\PiPowerHAT\PowerPi.kicad_sch</source>
+    <date>11/07/2022 14:54:08</date>
     <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -10,7 +10,7 @@
         <company/>
         <rev/>
         <date/>
-        <source>PiPowerHAT.kicad_sch</source>
+        <source>PowerPi.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -39,7 +39,7 @@
       <property name="abv.Footprint" value="SMD-ECAP-10x10"/>
       <property name="ManfNum" value="VEJ221M1HTR-1010"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>60173bd6-096a-4505-b329-b080a613e187</tstamps>
     </comp>
@@ -58,7 +58,7 @@
       <property name="abv.Footprint" value="0603"/>
       <property name="ManfNum" value="CL10A105KB8NNNC"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3427c5b8-85a9-4bc0-9950-3d8f93e645b4</tstamps>
     </comp>
@@ -77,7 +77,7 @@
       <property name="abv.Footprint" value="0603"/>
       <property name="ManfNum" value="CL10A105KB8NNNC"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>227bddcb-c42b-4cd8-bc3e-9967b0269b8c</tstamps>
     </comp>
@@ -96,26 +96,26 @@
       <property name="abv.Footprint" value="0603"/>
       <property name="ManfNum" value="CL10A105KB8NNNC"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>19072074-aee5-4bd8-87b4-b7ee7fae14bf</tstamps>
     </comp>
     <comp ref="C5">
-      <value>330uF</value>
-      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <value>1000uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
       <fields>
-        <field name="LCSC">C58277</field>
-        <field name="ManfNum">RVT1A331M0607</field>
-        <field name="PCBway">RVT1A331M0607</field>
-        <field name="abv.Footprint">SMD_6.3x7.7mm</field>
+        <field name="LCSC">C310838</field>
+        <field name="ManfNum">RVE1A102M0810</field>
+        <field name="PCBway">RVE1A102M0810</field>
+        <field name="abv.Footprint">SMD-ECAP-8x10</field>
       </fields>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
-      <property name="LCSC" value="C58277"/>
-      <property name="PCBway" value="RVT1A331M0607"/>
-      <property name="abv.Footprint" value="SMD_6.3x7.7mm"/>
-      <property name="ManfNum" value="RVT1A331M0607"/>
+      <property name="LCSC" value="C310838"/>
+      <property name="PCBway" value="RVE1A102M0810"/>
+      <property name="abv.Footprint" value="SMD-ECAP-8x10"/>
+      <property name="ManfNum" value="RVE1A102M0810"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>858d080d-4b19-45cc-bb9f-d3c272f2a854</tstamps>
     </comp>
@@ -134,7 +134,7 @@
       <property name="abv.Footprint" value="DO-214AC"/>
       <property name="ManfNum" value="SS54"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>80adc0a2-c38b-4c02-a9a6-e9d639d0764f</tstamps>
     </comp>
@@ -153,7 +153,7 @@
       <property name="abv.Footprint" value="0603"/>
       <property name="ManfNum" value="19-213/Y2C-CQ2R2L/3T(CY)"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>09682f05-b4e6-4e50-98a0-ce1e14e1d9ed</tstamps>
     </comp>
@@ -172,7 +172,7 @@
       <property name="abv.Footprint" value="0603"/>
       <property name="ManfNum" value="19-213/Y2C-CQ2R2L/3T(CY)"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a2240f71-3d3a-4a55-b741-43fc358d4155</tstamps>
     </comp>
@@ -191,7 +191,7 @@
       <property name="abv.Footprint" value="DO-214AC"/>
       <property name="ManfNum" value="SS54"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a4488618-ce77-4e97-9af6-11b5ea736fac</tstamps>
     </comp>
@@ -199,20 +199,27 @@
       <value>5A</value>
       <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
       <fields>
-        <field name="LCSC">C206916</field>
-        <field name="ManfNum">0154005.DR</field>
-        <field name="PCBway">0154005.DR</field>
-        <field name="abv.Footprint">SMD-2_5.03x9.73x3.81</field>
+        <field name="ManfNum">Keystone 3568</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="LCSC" value="C206916"/>
-      <property name="PCBway" value="0154005.DR"/>
-      <property name="abv.Footprint" value="SMD-2_5.03x9.73x3.81"/>
-      <property name="ManfNum" value="0154005.DR"/>
+      <property name="LCSC" value=""/>
+      <property name="PCBway" value=""/>
+      <property name="abv.Footprint" value=""/>
+      <property name="ManfNum" value="Keystone 3568"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9a87bfc4-c304-4037-8ceb-f6545574a9e8</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>JST XH 01x02</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PCBway" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcd6e405-0bb1-44eb-adb9-068c36c8144d</tstamps>
     </comp>
     <comp ref="L1">
       <value>47 uH</value>
@@ -229,7 +236,7 @@
       <property name="abv.Footprint" value="12x12"/>
       <property name="ManfNum" value="YSPI1365-470M"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d63a8b1e-b5ad-43cb-83cf-7743d8f69c2a</tstamps>
     </comp>
@@ -247,7 +254,7 @@
       <property name="ManfNum" value="AO3401A"/>
       <property name="abv.Footprint" value="SOT-23"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c8755866-f79b-4ab4-a0c4-e0f2438698a0</tstamps>
     </comp>
@@ -267,7 +274,7 @@
       <property name="abv.Footprint" value="SOT-363"/>
       <property name="ManfNum" value="MMDT5401"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c13a0798-2024-41d6-ae4a-b38e89f8cade 98582c58-179d-43e6-9d32-162946ffd54a</tstamps>
     </comp>
@@ -286,7 +293,7 @@
       <property name="abv.Footprint" value="SOT-23"/>
       <property name="ManfNum" value="AO3401A"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d57f6a44-a2e8-4e55-b5f9-065a7d2d4e75</tstamps>
     </comp>
@@ -305,7 +312,7 @@
       <property name="abv.Footprint" value="0402"/>
       <property name="ManfNum" value="0603WAF1002T5E"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e6b6e967-4ae8-4e8b-805c-74279dade796</tstamps>
     </comp>
@@ -324,12 +331,12 @@
       <property name="abv.Footprint" value="0402"/>
       <property name="ManfNum" value="0402WGF4702TCE"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7f533c49-9f73-4fa0-a9af-838189a5efbe</tstamps>
     </comp>
     <comp ref="R6">
-      <value>200</value>
+      <value>1kR</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C25087</field>
@@ -343,12 +350,12 @@
       <property name="abv.Footprint" value="0402"/>
       <property name="ManfNum" value="0402WGF2000TCE"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>80516a04-fa47-4ae2-84e7-78a64dcccb3b</tstamps>
     </comp>
     <comp ref="R8">
-      <value>1.5K</value>
+      <value>10kR</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C25867</field>
@@ -362,7 +369,7 @@
       <property name="abv.Footprint" value="0402"/>
       <property name="ManfNum" value="0402WGF1501TCE"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>37b224c2-d782-4ba3-b41b-62c9dc4f021b</tstamps>
     </comp>
@@ -381,7 +388,7 @@
       <property name="abv.Footprint" value="0603"/>
       <property name="ManfNum" value="0603WAF3301T5E"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dfff7474-f5ca-4010-8c50-7573e0314541</tstamps>
     </comp>
@@ -400,7 +407,7 @@
       <property name="abv.Footprint" value="0603"/>
       <property name="ManfNum" value="0603WAF1002T5E"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e2d488a6-7c4e-42ae-adc0-aa90757008d8</tstamps>
     </comp>
@@ -419,7 +426,7 @@
       <property name="abv.Footprint" value="TO-263-5"/>
       <property name="ManfNum" value="XL4015E1"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PiPowerHAT.kicad_sch"/>
+      <property name="Sheetfile" value="PowerPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b1afdc82-ee5a-4cef-b119-9cb72898d220</tstamps>
     </comp>
@@ -745,6 +752,7 @@
     <net code="2" name="+5V">
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Q2" pin="1" pinfunction="E1" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
@@ -752,7 +760,7 @@
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
     <net code="3" name="5V_PI">
-      <node ref="Q2" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="Q2" pin="4" pinfunction="E2" pintype="passive"/>
       <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
     </net>
     <net code="4" name="GND">
@@ -764,6 +772,7 @@
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
@@ -797,16 +806,16 @@
       <node ref="F1" pin="2" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(Q2-Pad2)">
+    <net code="12" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(Q2-Pad6)">
       <node ref="Q2" pin="2" pinfunction="B1" pintype="input"/>
       <node ref="Q2" pin="5" pinfunction="B2" pintype="input"/>
       <node ref="Q2" pin="6" pinfunction="C1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
-    </net>
-    <net code="13" name="Net-(Q2-Pad4)">
-      <node ref="Q2" pin="4" pinfunction="E2" pintype="passive"/>
-      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R2" pin="1" pintype="passive"/>
     </net>
     <net code="14" name="Net-(R10-Pad1)">
       <node ref="R10" pin="1" pintype="passive"/>
@@ -815,13 +824,11 @@
     </net>
     <net code="15" name="VCC">
       <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="VIN" pintype="power_in"/>
-    </net>
-    <net code="16" name="unconnected-(C2-Pad1)">
-      <node ref="C2" pin="1" pintype="passive"/>
     </net>
   </nets>
 </export>
