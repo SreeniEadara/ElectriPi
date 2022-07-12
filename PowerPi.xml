@@ -2,17 +2,17 @@
 <export version="E">
   <design>
     <source>C:\Users\adam\Documents\GitHub\PiPowerHAT\PowerPi.kicad_sch</source>
-    <date>11/07/2022 14:54:08</date>
+    <date>12/07/2022 09:01:51</date>
     <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
+        <title>ElectriPi</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>1.0</rev>
+        <date>2022-07-11</date>
         <source>PowerPi.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
+        <comment number="1" value="Designed By Sreenivas Eadara"/>
+        <comment number="2" value="A Vector 3D Product"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -806,16 +806,16 @@
       <node ref="F1" pin="2" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(Q2-Pad3)">
-      <node ref="Q2" pin="3" pinfunction="C2" pintype="passive"/>
-      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-    </net>
-    <net code="13" name="Net-(Q2-Pad6)">
+    <net code="12" name="Net-(Q2-Pad2)">
       <node ref="Q2" pin="2" pinfunction="B1" pintype="input"/>
       <node ref="Q2" pin="5" pinfunction="B2" pintype="input"/>
       <node ref="Q2" pin="6" pinfunction="C1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
     </net>
     <net code="14" name="Net-(R10-Pad1)">
       <node ref="R10" pin="1" pintype="passive"/>
