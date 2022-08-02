@@ -27,3 +27,4 @@ meta/PowerPi-F_Silkscreen.gbr
 meta/PowerPi-job.gbrjob
 meta/PowerPi-NPTH.drl
 meta/PowerPi-PTH.drl
+PowerPi-backups/*
