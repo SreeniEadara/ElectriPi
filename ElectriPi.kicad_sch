@@ -2509,6 +2509,22 @@
     (pin "1" (uuid bf8fa590-ce4f-4922-87b4-4cd1228addd5))
   )
 
+  (symbol (lib_id "power:GND") (at 76.962 64.008 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 374ac4ca-2900-4019-b85a-f241fc7de838)
+    (property "Reference" "#PWR010" (id 0) (at 76.962 70.358 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 76.962 68.58 0))
+    (property "Footprint" "" (id 2) (at 76.962 64.008 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 76.962 64.008 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cde4c440-de89-4efc-891d-fa10c9862800))
+  )
+
   (symbol (lib_id "Device:R") (at 40.64 161.925 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 37b224c2-d782-4ba3-b41b-62c9dc4f021b)
@@ -2550,6 +2566,24 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3e97bf64-6552-4c70-b26c-bf21011f70b0))
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 76.962 64.008 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 49903123-4398-48a2-9b23-5a55ab00fec6)
+    (property "Reference" "TP6" (id 0) (at 78.74 60.706 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (id 1) (at 78.74 61.9759 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (id 2) (at 82.042 64.008 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 82.042 64.008 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1de911ef-3835-4d40-9484-1624289e8b52))
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 79.629 154.559 0) (unit 1)
@@ -3887,6 +3921,9 @@
     (path "/8957aaae-c6d6-4f83-97ff-f71342f0b9ac"
       (reference "#PWR09") (unit 1) (value "GND") (footprint "")
     )
+    (path "/374ac4ca-2900-4019-b85a-f241fc7de838"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e82c6728-328a-4fb4-b819-3d2b4377817e"
       (reference "#PWR011") (unit 1) (value "GND") (footprint "")
     )
@@ -4090,6 +4127,9 @@
     )
     (path "/24282481-e299-4c5d-9e87-d4f466d79216"
       (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/49903123-4398-48a2-9b23-5a55ab00fec6"
+      (reference "TP6") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/b1afdc82-ee5a-4cef-b119-9cb72898d220"
       (reference "U1") (unit 1) (value "XL4015") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
