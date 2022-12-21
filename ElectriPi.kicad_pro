@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -57,8 +57,11 @@
       ],
       "drc_exclusions": [
         "silk_over_copper|136631135|99812500|9ed54841-4bec-491f-817d-b7e8b25ca06c|835d4ac3-3fb1-48d9-8c28-6093fe917376",
+        "silk_over_copper|138031135|96856250|9ed54841-4bec-491f-817d-b7e8b25ca06c|835d4ac3-3fb1-48d9-8c28-6093fe917376",
         "silk_over_copper|138194020|95750000|9ed54841-4bec-491f-817d-b7e8b25ca06c|0674c5a1-ca4b-4b6b-aa60-3847e1a37d52",
-        "silk_over_copper|139131750|100125000|c2e901e5-a4cd-4374-af38-0566255ecbea|0674c5a1-ca4b-4b6b-aa60-3847e1a37d52"
+        "silk_over_copper|139131750|100125000|c2e901e5-a4cd-4374-af38-0566255ecbea|0674c5a1-ca4b-4b6b-aa60-3847e1a37d52",
+        "silk_over_copper|139594020|92793750|9ed54841-4bec-491f-817d-b7e8b25ca06c|0674c5a1-ca4b-4b6b-aa60-3847e1a37d52",
+        "silk_over_copper|140531750|97168750|c2e901e5-a4cd-4374-af38-0566255ecbea|0674c5a1-ca4b-4b6b-aa60-3847e1a37d52"
       ],
       "meta": {
         "version": 2
@@ -356,7 +359,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PowerPi.kicad_pro",
+    "filename": "ElectriPi.kicad_pro",
     "version": 1
   },
   "net_settings": {
