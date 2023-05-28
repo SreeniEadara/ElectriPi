@@ -2813,7 +2813,7 @@
     (property "Datasheet" "~" (at 229.87 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a3360cc2-ade9-4a4f-a176-697df914ece2))
+    (pin "1" (uuid aa1fd2ba-5669-40e5-8d21-d3d472e93696))
     (instances
       (project "ElectriPi"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2921,7 +2921,7 @@
     (property "Datasheet" "~" (at 218.44 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 39340af9-0082-4158-93d8-427748ae9525))
+    (pin "1" (uuid 56e0a5d7-e9ca-4c67-9a73-2eff516d5ee8))
     (instances
       (project "ElectriPi"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -3450,7 +3450,7 @@
     (property "Reference" "R3" (at 62.23 62.865 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1K" (at 62.23 65.405 0)
+    (property "Value" "100K" (at 62.23 65.405 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 61.468 63.5 90)
@@ -3459,16 +3459,16 @@
     (property "Datasheet" "~" (at 59.69 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C25087" (at 59.69 63.5 90)
+    (property "LCSC" "" (at 59.69 63.5 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PCBway" "0402WGF2000TCE" (at 59.69 63.5 0)
+    (property "PCBway" "" (at 59.69 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "abv.Footprint" "0402" (at 59.69 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ManfNum" "0402WGF2000TCE" (at 59.69 63.5 0)
+    (property "ManfNum" "" (at 59.69 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 72ea8389-ad66-4245-b971-f40a96776717))
@@ -5126,7 +5126,7 @@
     (property "Datasheet" "" (at 218.44 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d15bfe0d-0016-49f7-9de3-7386e19cd351))
+    (pin "1" (uuid 77d4f3cb-5366-4a60-a912-4a72c282f996))
     (instances
       (project "ElectriPi"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
