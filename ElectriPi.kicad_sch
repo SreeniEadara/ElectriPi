@@ -2907,7 +2907,7 @@
     (property "Reference" "D4" (at 68.58 53.975 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BZX84-C18" (at 68.58 56.515 90)
+    (property "Value" "BZX84-C13" (at 68.58 56.515 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 66.04 54.61 0)
