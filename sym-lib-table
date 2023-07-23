@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "SO_DIODE")(type "KiCad")(uri "${KIPRJMOD}/SO_DIODE.kicad_sym")(options "")(descr ""))
   (lib (name "TPS51397ARJER")(type "KiCad")(uri "${KIPRJMOD}/TPS51397ARJER.kicad_sym")(options "")(descr ""))
+  (lib (name "FAN")(type "KiCad")(uri "${KIPRJMOD}/FAN.kicad_sym")(options "")(descr ""))
 )
