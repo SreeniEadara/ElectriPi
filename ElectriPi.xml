@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\adam\Documents\GitHub\ElectriPi\ElectriPi.kicad_sch</source>
-    <date>03/08/2023 09:25:33</date>
-    <tool>Eeschema 7.0.2</tool>
+    <source>/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch</source>
+    <date>Saturday, January 27, 2024 at 06:20:32 PM</date>
+    <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ElectriPi</title>
@@ -28,12 +28,14 @@
       <value>22 uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="DigiKey">445-14428-2-ND</field>
         <field name="LCSC">C2179409</field>
         <field name="Mouser">810-C2012X5R1V226MAC</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="810-C2012X5R1V226MAC"/>
       <property name="LCSC" value="C2179409"/>
+      <property name="DigiKey" value="445-14428-2-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -45,12 +47,14 @@
       <value>22 uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="DigiKey">445-14428-2-ND</field>
         <field name="LCSC">C2179409</field>
         <field name="Mouser">810-C2012X5R1V226MAC</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="810-C2012X5R1V226MAC"/>
       <property name="LCSC" value="C2179409"/>
+      <property name="DigiKey" value="445-14428-2-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -62,6 +66,7 @@
       <value>1 uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
+        <field name="DigiKey">1276-1860-2-ND</field>
         <field name="LCSC">C15849</field>
         <field name="ManfNum">CL10A105KB8NNNC</field>
         <field name="PCBway">CL10A105KB8NNNC</field>
@@ -72,6 +77,7 @@
       <property name="PCBway" value="CL10A105KB8NNNC"/>
       <property name="abv.Footprint" value="0603"/>
       <property name="ManfNum" value="CL10A105KB8NNNC"/>
+      <property name="DigiKey" value="1276-1860-2-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -83,12 +89,14 @@
       <value>100uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <fields>
+        <field name="DigiKey">490-GRM31CR61A107MEA8KTR-ND</field>
         <field name="LCSC">C312983</field>
         <field name="Mouser">81-GRM31CR61A107MA8L</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="81-GRM31CR61A107MA8L"/>
       <property name="LCSC" value="C312983"/>
+      <property name="DigiKey" value="490-GRM31CR61A107MEA8KTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -100,12 +108,14 @@
       <value>100uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <fields>
+        <field name="DigiKey">490-GRM31CR61A107MEA8KTR-ND</field>
         <field name="LCSC">C312983</field>
         <field name="Mouser">81-GRM31CR61A107MA8L</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="81-GRM31CR61A107MA8L"/>
       <property name="LCSC" value="C312983"/>
+      <property name="DigiKey" value="490-GRM31CR61A107MEA8KTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -117,12 +127,14 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
         <field name="LCSC">C2193622</field>
         <field name="Mouser">81-GRM155R62A104KE4J</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="81-GRM155R62A104KE4J"/>
       <property name="LCSC" value="C2193622"/>
+      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -134,12 +146,14 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
         <field name="LCSC">C2193622</field>
         <field name="Mouser">81-GRM155R62A104KE4J</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="81-GRM155R62A104KE4J"/>
       <property name="LCSC" value="C2193622"/>
+      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -151,12 +165,14 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
         <field name="LCSC">C2193622</field>
         <field name="Mouser">81-GRM155R62A104KE4J</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="81-GRM155R62A104KE4J"/>
       <property name="LCSC" value="C2193622"/>
+      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -168,12 +184,14 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
         <field name="LCSC">C2193622</field>
         <field name="Mouser">81-GRM155R62A104KE4J</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="81-GRM155R62A104KE4J"/>
       <property name="LCSC" value="C2193622"/>
+      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -185,12 +203,14 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
         <field name="LCSC">C2193622</field>
         <field name="Mouser">81-GRM155R62A104KE4J</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="81-GRM155R62A104KE4J"/>
       <property name="LCSC" value="C2193622"/>
+      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -202,12 +222,14 @@
       <value>22 uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="DigiKey">445-14428-2-ND</field>
         <field name="LCSC">C2179409</field>
         <field name="Mouser">810-C2012X5R1V226MAC</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="810-C2012X5R1V226MAC"/>
       <property name="LCSC" value="C2179409"/>
+      <property name="DigiKey" value="445-14428-2-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -219,12 +241,14 @@
       <value>22 uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="DigiKey">445-14428-2-ND</field>
         <field name="LCSC">C2179409</field>
         <field name="Mouser">810-C2012X5R1V226MAC</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="810-C2012X5R1V226MAC"/>
       <property name="LCSC" value="C2179409"/>
+      <property name="DigiKey" value="445-14428-2-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -236,12 +260,14 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
         <field name="LCSC">C2193622</field>
         <field name="Mouser">81-GRM155R62A104KE4J</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="81-GRM155R62A104KE4J"/>
       <property name="LCSC" value="C2193622"/>
+      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -253,12 +279,14 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
         <field name="LCSC">C2193622</field>
         <field name="Mouser">81-GRM155R62A104KE4J</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="81-GRM155R62A104KE4J"/>
       <property name="LCSC" value="C2193622"/>
+      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -270,12 +298,14 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
         <field name="LCSC">C2193622</field>
         <field name="Mouser">81-GRM155R62A104KE4J</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="81-GRM155R62A104KE4J"/>
       <property name="LCSC" value="C2193622"/>
+      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -287,12 +317,14 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
         <field name="LCSC">C2193622</field>
         <field name="Mouser">81-GRM155R62A104KE4J</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Mouser" value="81-GRM155R62A104KE4J"/>
       <property name="LCSC" value="C2193622"/>
+      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="dnp"/>
@@ -305,12 +337,14 @@
       <value>100uF</value>
       <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
       <fields>
+        <field name="DigiKey">399-EEV107M050S9MAATR-ND</field>
         <field name="LCSC">C2165366</field>
         <field name="Mouser">80-EEV107M050S9MAA</field>
       </fields>
       <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
       <property name="Mouser" value="80-EEV107M050S9MAA"/>
       <property name="LCSC" value="C2165366"/>
+      <property name="DigiKey" value="399-EEV107M050S9MAATR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor, small symbol"/>
@@ -323,12 +357,14 @@
       <footprint>Diode_SMD:D_SMC</footprint>
       <datasheet>https://www.vishay.com/docs/87023/xmc7k24ca.pdf</datasheet>
       <fields>
+        <field name="DigiKey">112-XMC7K24CAHM3/ITR-ND</field>
         <field name="LCSC">C3712593</field>
         <field name="Mouser">78-XMC7K24CAHM3/H</field>
       </fields>
       <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
       <property name="Mouser" value="78-XMC7K24CAHM3/H"/>
       <property name="LCSC" value="C3712593"/>
+      <property name="DigiKey" value="112-XMC7K24CAHM3/ITR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
@@ -340,6 +376,7 @@
       <value>2.3V 20mA</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
+        <field name="DigiKey">754-1124-2-ND</field>
         <field name="LCSC">C72038</field>
         <field name="ManfNum">19-213/Y2C-CQ2R2L/3T(CY)</field>
         <field name="PCBway">19-213/Y2C-CQ2R2L/3T(CY)</field>
@@ -350,6 +387,7 @@
       <property name="PCBway" value="19-213/Y2C-CQ2R2L/3T(CY)"/>
       <property name="abv.Footprint" value="0603"/>
       <property name="ManfNum" value="19-213/Y2C-CQ2R2L/3T(CY)"/>
+      <property name="DigiKey" value="754-1124-2-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -362,12 +400,14 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/916/BZX84_SER-1360291.pdf</datasheet>
       <fields>
+        <field name="DigiKey">BZX84C13-FDITR-ND</field>
         <field name="LCSC">C87090</field>
         <field name="Mouser">771-BZX84-C13-T/R</field>
       </fields>
       <libsource lib="Diode" part="BZX84Cxx" description="300mW Zener Diode, SOT-23"/>
       <property name="Mouser" value="771-BZX84-C13-T/R"/>
       <property name="LCSC" value="C87090"/>
+      <property name="DigiKey" value="BZX84C13-FDITR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="300mW Zener Diode, SOT-23"/>
@@ -379,6 +419,7 @@
       <value>2.3V 20mA</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
+        <field name="DigiKey">754-1124-2-ND</field>
         <field name="LCSC">C72038</field>
         <field name="ManfNum">19-213/Y2C-CQ2R2L/3T(CY)</field>
         <field name="PCBway">19-213/Y2C-CQ2R2L/3T(CY)</field>
@@ -389,6 +430,7 @@
       <property name="PCBway" value="19-213/Y2C-CQ2R2L/3T(CY)"/>
       <property name="abv.Footprint" value="0603"/>
       <property name="ManfNum" value="19-213/Y2C-CQ2R2L/3T(CY)"/>
+      <property name="DigiKey" value="754-1124-2-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -401,12 +443,14 @@
       <footprint>Diode_SMD:Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/916/PESD5V0C1BSF-2938367.pdf</datasheet>
       <fields>
+        <field name="DigiKey">1727-2175-1-ND</field>
         <field name="LCSC">C477955</field>
         <field name="Mouser">771-PESD5V0C1BSFYL</field>
       </fields>
       <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
       <property name="Mouser" value="771-PESD5V0C1BSFYL"/>
       <property name="LCSC" value="C477955"/>
+      <property name="DigiKey" value="1727-2175-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
@@ -418,6 +462,7 @@
       <value>5A</value>
       <footprint>Fuse:Fuse_Littelfuse-NANO2-451_453</footprint>
       <fields>
+        <field name="DigiKey">F1889-ND</field>
         <field name="LCSC">C108518</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
@@ -425,6 +470,7 @@
       <property name="PCBway" value=""/>
       <property name="abv.Footprint" value=""/>
       <property name="ManfNum" value=""/>
+      <property name="DigiKey" value="F1889-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Fuse"/>
@@ -439,6 +485,7 @@
       <fields>
         <field name="Arrow Part Number">TPS51397ARJER</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tps51397arjer/texas-instruments?region=nac</field>
+        <field name="DigiKey">296-TPS51397ARJERTR-ND</field>
         <field name="Height">1</field>
         <field name="LCSC">C1518754</field>
         <field name="Manufacturer_Name">Texas Instruments</field>
@@ -455,6 +502,7 @@
       <property name="Arrow Part Number" value="TPS51397ARJER"/>
       <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tps51397arjer/texas-instruments?region=nac"/>
       <property name="LCSC" value="C1518754"/>
+      <property name="DigiKey" value="296-TPS51397ARJERTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Switching Voltage Regulators 4.5-V to 24-V input, 10-A, synchronous step-down regulator"/>
@@ -465,10 +513,12 @@
       <value>JST XH 01x02</value>
       <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
       <fields>
+        <field name="DigiKey">455-B2B-XH-A-ND</field>
         <field name="LCSC">C24193</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="LCSC" value="C24193"/>
+      <property name="DigiKey" value="455-B2B-XH-A-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -497,6 +547,7 @@
       <footprint>Inductor_SMD:L_Vishay_IHLP-4040</footprint>
       <datasheet>https://www.vishay.com/docs/34192/lp40dz11.pdf</datasheet>
       <fields>
+        <field name="DigiKey">541-1313-2-ND</field>
         <field name="LCSC">C506636</field>
         <field name="Mouser">70-IHLP4040DZER1R8M1</field>
       </fields>
@@ -506,6 +557,7 @@
       <property name="abv.Footprint" value=""/>
       <property name="ManfNum" value=""/>
       <property name="Mouser" value="70-IHLP4040DZER1R8M1"/>
+      <property name="DigiKey" value="541-1313-2-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -518,12 +570,14 @@
       <footprint>Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single</footprint>
       <datasheet>https://www.vishay.com/docs/76741/sia471dj.pdf</datasheet>
       <fields>
+        <field name="DigiKey">SIA471DJ-T1-GE3TR-ND</field>
         <field name="LCSC">C5918946</field>
         <field name="Mouser">78-SIA471DJ-T1-GE3</field>
       </fields>
       <libsource lib="Transistor_FET" part="SiA449DJ" description="-12A Id, -30V Vds, P-Channel MOSFET, PowerPAK SC70-6"/>
       <property name="Mouser" value="78-SIA471DJ-T1-GE3"/>
       <property name="LCSC" value="C5918946"/>
+      <property name="DigiKey" value="SIA471DJ-T1-GE3TR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="-12A Id, -30V Vds, P-Channel MOSFET, PowerPAK SC70-6"/>
@@ -536,12 +590,14 @@
       <footprint>Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single</footprint>
       <datasheet>https://www.vishay.com/docs/62991/sia430djt.pdf</datasheet>
       <fields>
+        <field name="DigiKey">742-SIA430DJT-T1-GE3CT-ND</field>
         <field name="LCSC">C727347 </field>
         <field name="Mouser">78-SIA430DJT-T1-GE3</field>
       </fields>
       <libsource lib="Transistor_FET" part="SiA430DJT" description="12A Id, 20V Vds, N-Channel MOSFET"/>
       <property name="Mouser" value="78-SIA430DJT-T1-GE3"/>
       <property name="LCSC" value="C727347 "/>
+      <property name="DigiKey" value="742-SIA430DJT-T1-GE3CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="12A Id, 20V Vds, N-Channel MOSFET"/>
@@ -553,10 +609,12 @@
       <value>33K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">CR0402-FX-3302GLFTR-ND</field>
         <field name="LCSC">C323721</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C323721"/>
+      <property name="DigiKey" value="CR0402-FX-3302GLFTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -568,14 +626,14 @@
       <value>110K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">CR0402-FX-1103GLFTR-ND</field>
         <field name="LCSC">C413107</field>
-        <field name="abv.Footprint">0402</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C413107"/>
       <property name="PCBway" value=""/>
-      <property name="abv.Footprint" value="0402"/>
       <property name="ManfNum" value=""/>
+      <property name="DigiKey" value="CR0402-FX-1103GLFTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -587,10 +645,12 @@
       <value>180K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">CR0402-FX-1803GLFTR-ND</field>
         <field name="LCSC">C413110</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C413110"/>
+      <property name="DigiKey" value="CR0402-FX-1803GLFTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -602,10 +662,12 @@
       <value>33K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">CR0402-FX-3302GLFTR-ND</field>
         <field name="LCSC">C323721</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C323721"/>
+      <property name="DigiKey" value="CR0402-FX-3302GLFTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -617,6 +679,7 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">311-1.00KLRTR-ND</field>
         <field name="LCSC">C409028</field>
         <field name="ManfNum">0402WGF2000TCE</field>
         <field name="PCBway">0402WGF2000TCE</field>
@@ -627,6 +690,7 @@
       <property name="PCBway" value="0402WGF2000TCE"/>
       <property name="abv.Footprint" value="0402"/>
       <property name="ManfNum" value="0402WGF2000TCE"/>
+      <property name="DigiKey" value="311-1.00KLRTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -638,10 +702,12 @@
       <value>110K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">CR0402-FX-1103GLFTR-ND</field>
         <field name="LCSC">C413107</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C413107"/>
+      <property name="DigiKey" value="CR0402-FX-1103GLFTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -653,6 +719,7 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">CR0402-FX-1002GLFTR-ND</field>
         <field name="LCSC">C270371</field>
         <field name="ManfNum">0402WGF1501TCE</field>
         <field name="PCBway">0402WGF1501TCE</field>
@@ -663,6 +730,7 @@
       <property name="PCBway" value="0402WGF1501TCE"/>
       <property name="abv.Footprint" value="0402"/>
       <property name="ManfNum" value="0402WGF1501TCE"/>
+      <property name="DigiKey" value="CR0402-FX-1002GLFTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -674,10 +742,12 @@
       <value>33K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">CR0402-FX-3302GLFTR-ND</field>
         <field name="LCSC">C323721</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C323721"/>
+      <property name="DigiKey" value="CR0402-FX-3302GLFTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -689,10 +759,12 @@
       <value>110K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">CR0402-FX-1103GLFTR-ND</field>
         <field name="LCSC">C413107</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C413107"/>
+      <property name="DigiKey" value="CR0402-FX-1103GLFTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -704,10 +776,12 @@
       <value>110K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">CR0402-FX-1103GLFTR-ND</field>
         <field name="LCSC">C413107</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C413107"/>
+      <property name="DigiKey" value="CR0402-FX-1103GLFTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -719,10 +793,12 @@
       <value>15K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
+        <field name="DigiKey">CR0402-FX-1502GLFTR-ND</field>
         <field name="LCSC">C319837</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C319837"/>
+      <property name="DigiKey" value="CR0402-FX-1502GLFTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -735,12 +811,14 @@
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <datasheet>http://www.ti.com/lit/gpn/LM74700-Q1</datasheet>
       <fields>
+        <field name="DigiKey">296-LM74700QDBVRQ1CT-ND</field>
         <field name="LCSC">C2941042</field>
         <field name="Mouser">595-LM74700QDBVRQ1</field>
       </fields>
       <libsource lib="Power_Management" part="LM74700" description="Low Iq reverse battery protection ideal diode controller, SOT-23-6"/>
       <property name="Mouser" value="595-LM74700QDBVRQ1"/>
       <property name="LCSC" value="C2941042"/>
+      <property name="DigiKey" value="296-LM74700QDBVRQ1CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Low Iq reverse battery protection ideal diode controller, SOT-23-6"/>
@@ -1152,31 +1230,31 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Diode">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
     </library>
     <library logical="FAN">
-      <uri>C:\Users\adam\Documents\GitHub\ElectriPi/FAN.kicad_sym</uri>
+      <uri>/Users/sreenieadara/Documents/ElectriPi/FAN.kicad_sym</uri>
     </library>
     <library logical="Jumper">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="Power_Management">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Power_Management.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Management.kicad_sym</uri>
     </library>
     <library logical="Transistor_FET">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
