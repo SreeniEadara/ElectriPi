@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch</source>
-    <date>Saturday, January 27, 2024 at 06:20:32 PM</date>
+    <date>Monday, January 29, 2024 at 09:57:24 PM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -270,6 +270,7 @@
       <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
@@ -289,6 +290,7 @@
       <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
@@ -308,6 +310,7 @@
       <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
