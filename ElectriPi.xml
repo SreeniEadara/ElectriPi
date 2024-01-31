@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch</source>
-    <date>Monday, January 29, 2024 at 10:47:19 PM</date>
+    <date>Tuesday, January 30, 2024 at 09:02:48 PM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -256,26 +256,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ab041459-46ec-48d9-95c9-0a4b7701fb93</tstamps>
     </comp>
-    <comp ref="C13">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
-        <field name="LCSC">C2193622</field>
-        <field name="Mouser">81-GRM155R62A104KE4J</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Mouser" value="81-GRM155R62A104KE4J"/>
-      <property name="LCSC" value="C2193622"/>
-      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0f0f3c0b-dc50-42f6-a681-f2811818c436</tstamps>
-    </comp>
     <comp ref="C14">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
@@ -463,9 +443,9 @@
     </comp>
     <comp ref="F1">
       <value>5A</value>
-      <footprint>Fuse:Fuse_Littelfuse-NANO2-451_453</footprint>
+      <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3557</footprint>
       <fields>
-        <field name="DigiKey">F1889-ND</field>
+        <field name="DigiKey">36-3557-2-ND</field>
         <field name="LCSC">C108518</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
@@ -473,7 +453,7 @@
       <property name="PCBway" value=""/>
       <property name="abv.Footprint" value=""/>
       <property name="ManfNum" value=""/>
-      <property name="DigiKey" value="F1889-ND"/>
+      <property name="DigiKey" value="36-3557-2-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Fuse"/>
@@ -1297,7 +1277,6 @@
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
-      <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C17" pin="2" pintype="passive"/>
@@ -1361,7 +1340,6 @@
       <node ref="R12" pin="2" pintype="passive"/>
     </net>
     <net code="13" name="Net-(J1-Pin_1)">
-      <node ref="C13" pin="2" pintype="passive"/>
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
