@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch</source>
-    <date>Friday, February 02, 2024 at 06:57:30 PM</date>
+    <date>Tuesday, February 06, 2024 at 11:41:41 PM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -252,26 +252,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ab041459-46ec-48d9-95c9-0a4b7701fb93</tstamps>
     </comp>
-    <comp ref="C14">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
-        <field name="LCSC">C2193622</field>
-        <field name="Mouser">81-GRM155R62A104KE4J</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Mouser" value="81-GRM155R62A104KE4J"/>
-      <property name="LCSC" value="C2193622"/>
-      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>13aca4b4-7048-4291-ab50-28cc99828843</tstamps>
-    </comp>
     <comp ref="C15">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
@@ -351,6 +331,27 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f8a81895-3691-4edf-934c-b99188ab2c2b</tstamps>
     </comp>
+    <comp ref="D2">
+      <value>SMBJ5.0A</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/240/media-3319099.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">SMBJ5.0ALFTR-ND</field>
+        <field name="LCSC">C83333</field>
+        <field name="Mouser">576-SMBJ5.0A</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="DigiKey" value="SMBJ5.0ALFTR-ND"/>
+      <property name="Mouser" value="576-SMBJ5.0A"/>
+      <property name="LCSC" value="C83333"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a09f9487-2a13-418e-b9ac-cb7f3457c2ea</tstamps>
+    </comp>
     <comp ref="D3">
       <value>2.3V 20mA</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
@@ -408,26 +409,6 @@
       <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a2240f71-3d3a-4a55-b741-43fc358d4155</tstamps>
-    </comp>
-    <comp ref="D6">
-      <value>PESD5V0C1BSFYL</value>
-      <footprint>Diode_SMD:Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/916/PESD5V0C1BSF-2938367.pdf</datasheet>
-      <fields>
-        <field name="DigiKey">1727-2175-1-ND</field>
-        <field name="LCSC">C477955</field>
-        <field name="Mouser">771-PESD5V0C1BSFYL</field>
-      </fields>
-      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
-      <property name="Mouser" value="771-PESD5V0C1BSFYL"/>
-      <property name="LCSC" value="C477955"/>
-      <property name="DigiKey" value="1727-2175-1-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
-      <property name="ki_keywords" value="diode TVS thyrector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b41b964e-1c53-4267-841f-a1e56ee07616</tstamps>
     </comp>
     <comp ref="F1">
       <value>5A</value>
@@ -799,6 +780,26 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f88d5a0c-8664-475b-8f00-36cec69aa897</tstamps>
     </comp>
+    <comp ref="U3">
+      <value>TVS0500DRV</value>
+      <footprint>Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tvs0500.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">296-48382-2-ND</field>
+        <field name="LCSC">C609571</field>
+        <field name="Mouser">595-TVS0500DRVR</field>
+      </fields>
+      <libsource lib="Power_Protection" part="TVS0500DRV" description="Flat-Clamp Surge Protection Device. 5Vrwm, WSON-6"/>
+      <property name="DigiKey" value="296-48382-2-ND"/>
+      <property name="Mouser" value="595-TVS0500DRVR"/>
+      <property name="LCSC" value="C609571"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <property name="ki_description" value="Flat-Clamp Surge Protection Device. 5Vrwm, WSON-6"/>
+      <property name="ki_keywords" value="EMI, ESD, TVS protection transient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0afc7f7-02cb-44b4-9390-f9d0699f822e</tstamps>
+    </comp>
   </components>
   <libparts>
     <libpart lib="" part="TPS51397ARJER_1">
@@ -1155,6 +1156,28 @@
         <pin num="6" name="ANODE" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="Power_Protection" part="TVS0500DRV">
+      <description>Flat-Clamp Surge Protection Device. 5Vrwm, WSON-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tvs0500.pdf</docs>
+      <footprints>
+        <fp>WSON*1EP*2x2mm*P0.65mm*EP1x1.6mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TVS0500DRV</field>
+        <field name="Footprint">Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tvs0500.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="IN" type="passive"/>
+        <pin num="5" name="IN" type="passive"/>
+        <pin num="6" name="IN" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Transistor_FET" part="SiA430DJT">
       <description>12A Id, 20V Vds, N-Channel MOSFET</description>
       <docs>https://www.vishay.com/docs/62991/sia430djt.pdf</docs>
@@ -1217,6 +1240,9 @@
     <library logical="Power_Management">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Management.kicad_sym</uri>
     </library>
+    <library logical="Power_Protection">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Protection.kicad_sym</uri>
+    </library>
     <library logical="Transistor_FET">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
     </library>
@@ -1229,7 +1255,7 @@
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="D6" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
       <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Q2" pin="4" pinfunction="S" pintype="passive"/>
@@ -1237,6 +1263,9 @@
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
       <node ref="U1" pin="6" pinfunction="ANODE" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="IN" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="IN" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="IN" pintype="passive"/>
     </net>
     <net code="2" name="5V_PI">
       <node ref="C11" pin="1" pintype="passive"/>
@@ -1258,7 +1287,6 @@
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
-      <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C17" pin="2" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
@@ -1269,9 +1297,9 @@
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D6" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="IC2" pin="10" pinfunction="NC_1" pintype="passive"/>
       <node ref="IC2" pin="13" pinfunction="AGND" pintype="passive"/>
       <node ref="IC2" pin="16" pinfunction="NC_2" pintype="passive"/>
@@ -1286,6 +1314,10 @@
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="GND" pintype="passive"/>
     </net>
     <net code="6" name="Net-(D1-A2)">
       <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
@@ -1323,9 +1355,6 @@
     <net code="13" name="Net-(J1-Pin_1)">
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="14" name="Net-(J3-Pin_1)">
-      <node ref="C14" pin="2" pintype="passive"/>
     </net>
     <net code="15" name="Net-(Q2-G)">
       <node ref="Q2" pin="3" pinfunction="G" pintype="passive"/>
