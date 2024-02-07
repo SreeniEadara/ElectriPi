@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch</source>
-    <date>Tuesday, February 06, 2024 at 11:41:41 PM</date>
+    <date>Tuesday, February 06, 2024 at 11:47:04 PM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -770,15 +770,6 @@
       <property name="ki_keywords" value="ideal-diode or-ing"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fb4bd511-f32d-436a-b1b7-4377f8114190</tstamps>
-    </comp>
-    <comp ref="U2">
-      <value>COOLING</value>
-      <footprint>FAN:4040</footprint>
-      <libsource lib="FAN" part="COOLING" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f88d5a0c-8664-475b-8f00-36cec69aa897</tstamps>
     </comp>
     <comp ref="U3">
       <value>TVS0500DRV</value>

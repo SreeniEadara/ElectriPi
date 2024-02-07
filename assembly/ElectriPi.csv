@@ -1,8 +1,8 @@
 "Source:","/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch"
-"Date:","Tuesday, February 06, 2024 at 11:41:41 PM"
+"Date:","Tuesday, February 06, 2024 at 11:47:04 PM"
 "Tool:","Eeschema 7.0.10"
 "Generator:","/Users/sreenieadara/Documents/bomgen/bomgen.py"
-"Component Count:","41"
+"Component Count:","40"
 
 "Collated Components:"
 
@@ -31,5 +31,4 @@
 "22","1","R8","10K","Device:R","Resistor_SMD:R_0402_1005Metric","~","","CR0402-FX-1002GLFTR-ND","C270371","652-CR0402FX-1002GLF"
 "23","1","R14","15K","Device:R_Small","Resistor_SMD:R_0402_1005Metric","~","","CR0402-FX-1502GLFTR-ND","C319837","652-CR0402FX-1502GLF"
 "24","1","U1","LM74700","Power_Management:LM74700","Package_TO_SOT_SMD:SOT-23-6","http://www.ti.com/lit/gpn/LM74700-Q1","","296-LM74700QDBVRQ1CT-ND","C2941042","595-LM74700QDBVRQ1"
-"25","1","U2","COOLING","FAN:COOLING","FAN:4040","","","","",""
-"26","1","U3","TVS0500DRV","Power_Protection:TVS0500DRV","Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm","http://www.ti.com/lit/ds/symlink/tvs0500.pdf","","296-48382-2-ND","C609571","595-TVS0500DRVR"
+"25","1","U3","TVS0500DRV","Power_Protection:TVS0500DRV","Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm","http://www.ti.com/lit/ds/symlink/tvs0500.pdf","","296-48382-2-ND","C609571","595-TVS0500DRVR"

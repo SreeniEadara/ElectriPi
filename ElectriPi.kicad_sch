@@ -5837,7 +5837,7 @@
   )
 
   (symbol (lib_id "FAN:COOLING") (at 123.825 123.19 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f88d5a0c-8664-475b-8f00-36cec69aa897)
     (property "Reference" "U2" (at 129.54 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
