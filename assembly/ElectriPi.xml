@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch</source>
-    <date>Tuesday, February 06, 2024 at 11:47:04 PM</date>
+    <date>Thursday, February 08, 2024 at 02:45:46 PM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -252,46 +252,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ab041459-46ec-48d9-95c9-0a4b7701fb93</tstamps>
     </comp>
-    <comp ref="C15">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
-        <field name="LCSC">C2193622</field>
-        <field name="Mouser">81-GRM155R62A104KE4J</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Mouser" value="81-GRM155R62A104KE4J"/>
-      <property name="LCSC" value="C2193622"/>
-      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>91528d5d-937a-4ab4-9e6b-6ef29a4906eb</tstamps>
-    </comp>
-    <comp ref="C17">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
-        <field name="LCSC">C2193622</field>
-        <field name="Mouser">81-GRM155R62A104KE4J</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Mouser" value="81-GRM155R62A104KE4J"/>
-      <property name="LCSC" value="C2193622"/>
-      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>378df873-a0a9-4086-a0c0-aaa10581f972</tstamps>
-    </comp>
     <comp ref="C18">
       <value>100uF</value>
       <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
@@ -330,27 +290,6 @@
       <property name="ki_keywords" value="diode TVS thyrector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f8a81895-3691-4edf-934c-b99188ab2c2b</tstamps>
-    </comp>
-    <comp ref="D2">
-      <value>SMBJ5.0A</value>
-      <footprint>Diode_SMD:D_SMB</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/240/media-3319099.pdf</datasheet>
-      <fields>
-        <field name="DigiKey">SMBJ5.0ALFTR-ND</field>
-        <field name="LCSC">C83333</field>
-        <field name="Mouser">576-SMBJ5.0A</field>
-      </fields>
-      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
-      <property name="DigiKey" value="SMBJ5.0ALFTR-ND"/>
-      <property name="Mouser" value="576-SMBJ5.0A"/>
-      <property name="LCSC" value="C83333"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
-      <property name="ki_keywords" value="diode TVS thyrector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a09f9487-2a13-418e-b9ac-cb7f3457c2ea</tstamps>
     </comp>
     <comp ref="D3">
       <value>2.3V 20mA</value>
@@ -410,25 +349,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a2240f71-3d3a-4a55-b741-43fc358d4155</tstamps>
     </comp>
-    <comp ref="F1">
-      <value>5A</value>
-      <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3557</footprint>
-      <fields>
-        <field name="DigiKey">36-3557-2-ND</field>
-        <field name="LCSC">C352820</field>
-        <field name="Mouser">534-3557-2</field>
-      </fields>
-      <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="LCSC" value="C352820"/>
-      <property name="DigiKey" value="36-3557-2-ND"/>
-      <property name="Mouser" value="534-3557-2"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="ki_description" value="Fuse"/>
-      <property name="ki_keywords" value="fuse"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9a87bfc4-c304-4037-8ceb-f6545574a9e8</tstamps>
-    </comp>
     <comp ref="IC2">
       <value>TPS51397ARJER</value>
       <footprint>Package_DFN_QFN:QFN-20-1EP_3x3mm_P0.45mm_EP1.6x1.6mm_ThermalVias</footprint>
@@ -447,40 +367,6 @@
       <property name="ki_description" value="Switching Voltage Regulators 4.5-V to 24-V input, 10-A, synchronous step-down regulator"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0bd82cc6-f21b-47f7-811f-831c8b63d1a5</tstamps>
-    </comp>
-    <comp ref="J2">
-      <value>JST XH 01x02</value>
-      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
-      <fields>
-        <field name="DigiKey">455-B2B-XH-A-ND</field>
-        <field name="LCSC">C24193</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="LCSC" value="C24193"/>
-      <property name="DigiKey" value="455-B2B-XH-A-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>933a4598-ee67-401d-bec6-d7278425186a</tstamps>
-    </comp>
-    <comp ref="J8">
-      <value>JST XH 01x02</value>
-      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
-      <fields>
-        <field name="DigiKey">455-B2B-XH-A-ND</field>
-        <field name="LCSC">C24193</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="LCSC" value="C24193"/>
-      <property name="DigiKey" value="455-B2B-XH-A-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>bcd6e405-0bb1-44eb-adb9-068c36c8144d</tstamps>
     </comp>
     <comp ref="L1">
       <value>1.8 uH</value>
@@ -1241,13 +1127,10 @@
   <nets>
     <net code="1" name="+5V">
       <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
-      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Q2" pin="4" pinfunction="S" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
@@ -1278,8 +1161,6 @@
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
-      <node ref="C15" pin="2" pintype="passive"/>
-      <node ref="C17" pin="2" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
@@ -1288,7 +1169,6 @@
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="IC2" pin="10" pinfunction="NC_1" pintype="passive"/>
@@ -1298,8 +1178,6 @@
       <node ref="IC2" pin="21" pinfunction="PGND_4" pintype="passive"/>
       <node ref="IC2" pin="7" pinfunction="PGND_1" pintype="passive"/>
       <node ref="IC2" pin="8" pinfunction="PGND_2" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
@@ -1312,7 +1190,6 @@
     </net>
     <net code="6" name="Net-(D1-A2)">
       <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
-      <node ref="F1" pin="2" pintype="passive"/>
       <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
     </net>
     <net code="7" name="Net-(D3-A)">
@@ -1320,7 +1197,6 @@
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
     <net code="8" name="Net-(D4-A)">
-      <node ref="C17" pin="1" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="G" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
@@ -1342,10 +1218,6 @@
     <net code="12" name="Net-(IC2-PGOOD)">
       <node ref="IC2" pin="9" pinfunction="PGOOD" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
-    </net>
-    <net code="13" name="Net-(J1-Pin_1)">
-      <node ref="F1" pin="1" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="15" name="Net-(Q2-G)">
       <node ref="Q2" pin="3" pinfunction="G" pintype="passive"/>

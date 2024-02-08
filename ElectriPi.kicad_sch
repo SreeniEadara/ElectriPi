@@ -3661,7 +3661,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 67.31 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 378df873-a0a9-4086-a0c0-aaa10581f972)
     (property "Reference" "C17" (at 69.85 62.8713 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4620,7 +4620,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 139.7 177.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 91528d5d-937a-4ab4-9e6b-6ef29a4906eb)
     (property "Reference" "C15" (at 142.24 177.1713 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4680,7 +4680,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 31.75 78.74 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 933a4598-ee67-401d-bec6-d7278425186a)
     (property "Reference" "J2" (at 34.29 77.4699 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4772,7 +4772,7 @@
   )
 
   (symbol (lib_id "Device:Fuse") (at 36.83 40.64 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a87bfc4-c304-4037-8ceb-f6545574a9e8)
     (property "Reference" "F1" (at 36.83 34.29 90)
       (effects (font (size 1.27 1.27)))
@@ -4884,7 +4884,7 @@
   )
 
   (symbol (lib_id "Device:D_TVS") (at 21.59 122.555 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid a09f9487-2a13-418e-b9ac-cb7f3457c2ea)
     (property "Reference" "D2" (at 24.13 121.285 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5164,7 +5164,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 161.29 176.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid bcd6e405-0bb1-44eb-adb9-068c36c8144d)
     (property "Reference" "J8" (at 161.29 185.1152 0)
       (effects (font (size 1.27 1.27)))
