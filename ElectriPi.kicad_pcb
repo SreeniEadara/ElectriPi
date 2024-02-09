@@ -4442,8 +4442,6 @@
       (net 44 "Net-(D1-A2)") (pinfunction "1") (pintype "passive") (tstamp 9f18b9a7-d733-455d-b818-6f5355c30189))
   )
 
-  (gr_rect locked (start 85.5 60.5) (end 125.5 100.5)
-    (stroke (width 0.15) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 358f5ae5-bb57-48a1-9a86-5c886f10ce62))
   (gr_line (start 85.25 71.75) (end 85.25 106.25)
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 03c7f780-fc1b-487a-b30d-567d6c09fdc8))
   (gr_arc (start 147.25 53.25) (mid 149.37132 54.12868) (end 150.25 56.25)
@@ -14800,11 +14798,6 @@
       f0fd7b3e-d73f-4c46-9cec-74b60b1b4ad7
       f29edec4-0c0f-4431-99c5-008ad3629adc
       fb8364d3-3400-4b10-9ea4-63998d3f00ee
-    )
-  )
-  (group "" locked (id 6c2cd94d-f4a5-4b3f-88b6-179a534bdb44)
-    (members
-      358f5ae5-bb57-48a1-9a86-5c886f10ce62
     )
   )
 )
