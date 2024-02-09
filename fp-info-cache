@@ -1,4 +1,4 @@
-22368115935416171
+22366410491492285
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60318,13 +60318,6 @@ THT
 0
 4
 2
-Inrush_Limiter
-5_OR_7pt5_PITCH_ICL
-
-
-0
-4
-2
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -61635,14 +61628,14 @@ Logos
 0
 0
 Logos
-LDO Motors Logo
+V3D Logo
 
 
 0
 0
 0
 Logos
-V3D Logo
+V3D Logo Small
 
 
 0
