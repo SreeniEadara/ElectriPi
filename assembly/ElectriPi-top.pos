@@ -1,4 +1,4 @@
-### Footprint positions - created on Tuesday, February 06, 2024 at 11:39:52 PM ###
+### Footprint positions - created on Thursday, February 08, 2024 at 09:47:23 PM ###
 ### Printed by KiCad version 7.0.10
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -20,9 +20,9 @@ C17       0.1uF          C_0402_1005Metric                                   57.
 C18       100uF          CP_Elec_8x10                                        51.5000   -40.5000  180.0000  top
 D1        XMC7K24CA      D_SMC                                               49.7500   -50.2500  -90.0000  top
 D2        SMBJ5.0A       D_SMB                                               51.2500   -21.2500   90.0000  top
-D3        2.3V_20mA      LED_0603_1608Metric                                 63.9500   -18.7500   90.0000  top
+D3        2.3V_20mA      LED_0603_1608Metric                                 63.9500   -19.7500   90.0000  top
 D4        BZX84-C13      SOT-23                                              58.2500   -48.0000   90.0000  top
-D5        2.3V_20mA      LED_0603_1608Metric                                 63.9500   -22.0000  -90.0000  top
+D5        2.3V_20mA      LED_0603_1608Metric                                 63.9500   -23.0000  -90.0000  top
 IC2       TPS51397ARJER  QFN-20-1EP_3x3mm_P0.45mm_EP1.6x1.6mm_ThermalVias    57.4000   -29.1500   90.0000  top
 L1        1.8_uH         L_Vishay_IHLP-4040                                  47.0000   -30.5000  180.0000  top
 Q1        SiA471DJ       Vishay_PowerPAK_SC70-6L_Single                      54.9250   -49.1500  180.0000  top
@@ -31,9 +31,9 @@ R1        33K            R_0402_1005Metric                                   62.
 R3        110K           R_0402_1005Metric                                   57.2500   -52.0000   90.0000  top
 R4        180K           R_0402_1005Metric                                   54.2500   -25.0500  -90.0000  top
 R5        33K            R_0402_1005Metric                                   55.7500   -25.0500   90.0000  top
-R6        1K             R_0402_1005Metric                                   63.8500   -16.2500   90.0000  top
+R6        1K             R_0402_1005Metric                                   63.8500   -17.2500   90.0000  top
 R7        110K           R_0402_1005Metric                                   59.7500   -26.3000  180.0000  top
-R8        10K            R_0402_1005Metric                                   64.0000   -24.5000  -90.0000  top
+R8        10K            R_0402_1005Metric                                   64.0000   -25.5000  -90.0000  top
 R11       33K            R_0402_1005Metric                                   59.7500   -25.0000    0.0000  top
 R12       110K           R_0402_1005Metric                                   60.7500   -28.5500  180.0000  top
 R13       110K           R_0402_1005Metric                                   57.0000   -21.4000  -90.0000  top
