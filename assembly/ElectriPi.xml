@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch</source>
-    <date>Friday, February 09, 2024 at 11:34:46 AM</date>
+    <date>Friday, February 09, 2024 at 09:34:38 PM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1106,7 +1106,7 @@
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
     </library>
     <library logical="FAN">
-      <uri>/Users/sreenieadara/Documents/ElectriPi/FAN.kicad_sym</uri>
+      <uri>/Users/sreenieadara/Documents/ElectriPi/Components/FAN/FAN.kicad_sym</uri>
     </library>
     <library logical="Jumper">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>

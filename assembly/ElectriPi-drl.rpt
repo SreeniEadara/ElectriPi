@@ -1,5 +1,5 @@
 Drill report for ElectriPi.kicad_pcb
-Created on Friday, February 09, 2024 at 11:34:19 AM
+Created on Friday, February 09, 2024 at 09:34:01 PM
 
 Copper Layer Stackup:
     =============================================================
@@ -10,15 +10,15 @@ Copper Layer Stackup:
 Drill file 'ElectriPi-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.300mm  0.0118"  (127 holes)
+    T1  0.300mm  0.0118"  (131 holes)
     T2  0.300mm  0.0118"  (4 holes)
-    T3  1.000mm  0.0394"  (46 holes)
-    T4  1.520mm  0.0598"  (2 holes)
+    T3  1.000mm  0.0394"  (42 holes)
+    T4  1.520mm  0.0598"  (4 holes)
     T5  1.780mm  0.0701"  (4 holes)
     T6  2.700mm  0.1063"  (4 holes)
     T7  3.500mm  0.1378"  (4 holes)
 
-    Total plated holes count 191
+    Total plated holes count 193
 
 
 Drill file 'ElectriPi-NPTH.drl' contains
