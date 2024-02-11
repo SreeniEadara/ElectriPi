@@ -1,5 +1,5 @@
 # ElectriPi
-A power supply shield for the Raspberry Pi.
+A power supply shield for the Raspberry Pi. Capable of up to 50W (5V, 10A).
 
 ## Features
 - Indicator LEDs for power in and power out
