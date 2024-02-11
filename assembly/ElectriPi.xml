@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch</source>
-    <date>Friday, February 09, 2024 at 09:34:38 PM</date>
+    <date>Sunday, February 11, 2024 at 02:13:08 PM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -177,23 +177,23 @@
       <tstamps>c393f958-f3af-4347-b572-9e1900ff1f66</tstamps>
     </comp>
     <comp ref="C9">
-      <value>0.1uF</value>
+      <value>2200p</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
-        <field name="LCSC">C2193622</field>
-        <field name="Mouser">81-GRM155R62A104KE4J</field>
+        <field name="DigiKey">490-GCM155R71H222KA37JTR-ND</field>
+        <field name="LCSC">C126534</field>
+        <field name="Mouser">81-GCM155R71H222K37D</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Mouser" value="81-GRM155R62A104KE4J"/>
-      <property name="LCSC" value="C2193622"/>
-      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
+      <property name="DigiKey" value="490-GCM155R71H222KA37JTR-ND"/>
+      <property name="Mouser" value="81-GCM155R71H222K37D"/>
+      <property name="LCSC" value="C126534"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f0123cfa-ac2a-470f-9372-9e5a86831c88</tstamps>
+      <tstamps>112cdba8-e2ac-486c-ad10-3e2aec7b460c</tstamps>
     </comp>
     <comp ref="C10">
       <value>0.1uF</value>
@@ -215,42 +215,23 @@
       <tstamps>240c593a-f762-4d6c-bb98-f958a2b51d4a</tstamps>
     </comp>
     <comp ref="C11">
-      <value>22 uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="DigiKey">445-14428-2-ND</field>
-        <field name="LCSC">C2179409</field>
-        <field name="Mouser">810-C2012X5R1V226MAC</field>
+        <field name="DigiKey">490-GRM155R62A104KE14JTR-ND</field>
+        <field name="LCSC">C2193622</field>
+        <field name="Mouser">81-GRM155R62A104KE4J</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Mouser" value="810-C2012X5R1V226MAC"/>
-      <property name="LCSC" value="C2179409"/>
-      <property name="DigiKey" value="445-14428-2-ND"/>
+      <property name="Mouser" value="81-GRM155R62A104KE4J"/>
+      <property name="LCSC" value="C2193622"/>
+      <property name="DigiKey" value="490-GRM155R62A104KE14JTR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>86298c50-079c-4390-9484-047c5f245b63</tstamps>
-    </comp>
-    <comp ref="C12">
-      <value>22 uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <fields>
-        <field name="DigiKey">445-14428-2-ND</field>
-        <field name="LCSC">C2179409</field>
-        <field name="Mouser">810-C2012X5R1V226MAC</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Mouser" value="810-C2012X5R1V226MAC"/>
-      <property name="LCSC" value="C2179409"/>
-      <property name="DigiKey" value="445-14428-2-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ab041459-46ec-48d9-95c9-0a4b7701fb93</tstamps>
+      <tstamps>b819bcce-502d-4fc5-9812-003874c91252</tstamps>
     </comp>
     <comp ref="C18">
       <value>100uF</value>
@@ -447,6 +428,25 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5733040a-9e85-4196-9968-dd3a1e0af507</tstamps>
     </comp>
+    <comp ref="R2">
+      <value>110K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="DigiKey">CR0402-FX-1103GLFTR-ND</field>
+        <field name="LCSC">C413107</field>
+        <field name="Mouser">652-CR0402FX-1103GLF</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C413107"/>
+      <property name="DigiKey" value="CR0402-FX-1103GLFTR-ND"/>
+      <property name="Mouser" value="652-CR0402FX-1103GLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1787c2c9-73bf-4c1e-9a51-b819612437bf</tstamps>
+    </comp>
     <comp ref="R3">
       <value>110K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
@@ -637,26 +637,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>62498ddb-72cc-4e2d-bc2c-536b544b69f3</tstamps>
     </comp>
-    <comp ref="U1">
-      <value>LM74700</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
-      <datasheet>http://www.ti.com/lit/gpn/LM74700-Q1</datasheet>
-      <fields>
-        <field name="DigiKey">296-LM74700QDBVRQ1CT-ND</field>
-        <field name="LCSC">C2941042</field>
-        <field name="Mouser">595-LM74700QDBVRQ1</field>
-      </fields>
-      <libsource lib="Power_Management" part="LM74700" description="Low Iq reverse battery protection ideal diode controller, SOT-23-6"/>
-      <property name="Mouser" value="595-LM74700QDBVRQ1"/>
-      <property name="LCSC" value="C2941042"/>
-      <property name="DigiKey" value="296-LM74700QDBVRQ1CT-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="ki_description" value="Low Iq reverse battery protection ideal diode controller, SOT-23-6"/>
-      <property name="ki_keywords" value="ideal-diode or-ing"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>fb4bd511-f32d-436a-b1b7-4377f8114190</tstamps>
-    </comp>
     <comp ref="U3">
       <value>TVS0500DRV</value>
       <footprint>Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</footprint>
@@ -676,6 +656,26 @@
       <property name="ki_keywords" value="EMI, ESD, TVS protection transient"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c0afc7f7-02cb-44b4-9390-f9d0699f822e</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TPS2413PW</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps2412.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">296-41732-2-ND</field>
+        <field name="LCSC">C2653634</field>
+        <field name="Mouser">595-TPS2413PWR</field>
+      </fields>
+      <libsource lib="Power_Management" part="TPS2412PW" description="N+1 and ORing Power Rail Controller, TSSOP-8"/>
+      <property name="DigiKey" value="296-41732-2-ND"/>
+      <property name="Mouser" value="595-TPS2413PWR"/>
+      <property name="LCSC" value="C2653634"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <property name="ki_description" value="N+1 and ORing Power Rail Controller, TSSOP-8"/>
+      <property name="ki_keywords" value="ideal-diode or-ing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9260ab74-98cd-4db6-b61e-d4cbab464f90</tstamps>
     </comp>
   </components>
   <libparts>
@@ -1012,25 +1012,27 @@
         <field name="Datasheet">~</field>
       </fields>
     </libpart>
-    <libpart lib="Power_Management" part="LM74700">
-      <description>Low Iq reverse battery protection ideal diode controller, SOT-23-6</description>
-      <docs>http://www.ti.com/lit/gpn/LM74700-Q1</docs>
+    <libpart lib="Power_Management" part="TPS2412PW">
+      <description>N+1 and ORing Power Rail Controller, TSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps2412.pdf</docs>
       <footprints>
-        <fp>SOT?23*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LM74700</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
-        <field name="Datasheet">http://www.ti.com/lit/gpn/LM74700-Q1</field>
+        <field name="Value">TPS2412PW</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps2412.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="VCAP" type="passive"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="EN" type="input"/>
-        <pin num="4" name="CATHODE" type="input"/>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="RSET" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
         <pin num="5" name="GATE" type="output"/>
-        <pin num="6" name="ANODE" type="power_in"/>
+        <pin num="6" name="C" type="input"/>
+        <pin num="7" name="A" type="input"/>
+        <pin num="8" name="BYP" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Power_Protection" part="TVS0500DRV">
@@ -1135,17 +1137,16 @@
       <node ref="Q2" pin="4" pinfunction="S" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
-      <node ref="U1" pin="6" pinfunction="ANODE" pintype="power_in"/>
       <node ref="U3" pin="4" pinfunction="IN" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="IN" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="IN" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="7" pinfunction="A" pintype="input"/>
     </net>
     <net code="2" name="5V_PI">
       <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="C12" pin="1" pintype="passive"/>
       <node ref="Q2" pin="1" pinfunction="D" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="CATHODE" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="C" pintype="input"/>
     </net>
     <net code="3" name="BST">
       <node ref="C8" pin="1" pintype="passive"/>
@@ -1160,7 +1161,6 @@
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
@@ -1180,13 +1180,15 @@
       <node ref="IC2" pin="8" pinfunction="PGND_2" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="6" name="Net-(D1-A2)">
       <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
@@ -1221,30 +1223,34 @@
     </net>
     <net code="15" name="Net-(Q2-G)">
       <node ref="Q2" pin="3" pinfunction="G" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="GATE" pintype="output"/>
+      <node ref="U5" pin="5" pinfunction="GATE" pintype="output"/>
     </net>
     <net code="16" name="Net-(R1-Pad1)">
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(U1-VCAP)">
+    <net code="17" name="Net-(U5-BYP)">
       <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="U1" pin="1" pinfunction="VCAP" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="BYP" pintype="passive"/>
     </net>
-    <net code="18" name="SW">
+    <net code="18" name="Net-(U5-RSET)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="RSET" pintype="passive"/>
+    </net>
+    <net code="19" name="SW">
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="IC2" pin="19" pinfunction="SW_2" pintype="passive"/>
       <node ref="IC2" pin="20" pinfunction="SW_3" pintype="passive"/>
       <node ref="IC2" pin="6" pinfunction="SW_1" pintype="passive"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="19" name="VCC">
+    <net code="20" name="VCC">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="IC2" pin="17" pinfunction="VCC" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="20" name="Vin">
+    <net code="21" name="Vin">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
@@ -1258,10 +1264,10 @@
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="21" name="unconnected-(D4-NC-Pad2)">
+    <net code="22" name="unconnected-(D4-NC-Pad2)">
       <node ref="D4" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="22" name="unconnected-(IC2-SS-Pad11)">
+    <net code="23" name="unconnected-(IC2-SS-Pad11)">
       <node ref="IC2" pin="11" pinfunction="SS" pintype="passive+no_connect"/>
     </net>
   </nets>
