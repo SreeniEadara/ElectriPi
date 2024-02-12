@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "TPS51397ARJER")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS51397ARJER/TPS51397ARJER.kicad_sym")(options "")(descr ""))
   (lib (name "FAN")(type "KiCad")(uri "${KIPRJMOD}/Components/FAN/FAN.kicad_sym")(options "")(descr ""))
+  (lib (name "LM7310")(type "KiCad")(uri "${KIPRJMOD}/Components/LM7310/LM7310.kicad_sym")(options "")(descr ""))
 )
