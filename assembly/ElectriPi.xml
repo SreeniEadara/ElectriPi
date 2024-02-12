@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch</source>
-    <date>Sunday, February 11, 2024 at 02:13:08 PM</date>
+    <date>Monday, February 12, 2024 at 01:07:59 AM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -190,6 +190,7 @@
       <property name="LCSC" value="C126534"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
@@ -231,7 +232,26 @@
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b819bcce-502d-4fc5-9812-003874c91252</tstamps>
+      <tstamps>921fced8-5c62-49ab-9828-885db620b451</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DigiKey">490-GRM31CR61A107MEA8KTR-ND</field>
+        <field name="LCSC">C312983</field>
+        <field name="Mouser">81-GRM31CR61A107MA8L</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mouser" value="81-GRM31CR61A107MA8L"/>
+      <property name="LCSC" value="C312983"/>
+      <property name="DigiKey" value="490-GRM31CR61A107MEA8KTR-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>befbfc56-46fa-474f-81da-1ae805ea3c40</tstamps>
     </comp>
     <comp ref="C18">
       <value>100uF</value>
@@ -389,26 +409,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7dd855ee-b17c-435b-a8e1-eabd45d61f4e</tstamps>
     </comp>
-    <comp ref="Q2">
-      <value>SiA430DJT</value>
-      <footprint>Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single</footprint>
-      <datasheet>https://www.vishay.com/docs/62991/sia430djt.pdf</datasheet>
-      <fields>
-        <field name="DigiKey">742-SIA430DJT-T1-GE3CT-ND</field>
-        <field name="LCSC">C727347 </field>
-        <field name="Mouser">78-SIA430DJT-T1-GE3</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="SiA430DJT" description="12A Id, 20V Vds, N-Channel MOSFET"/>
-      <property name="Mouser" value="78-SIA430DJT-T1-GE3"/>
-      <property name="LCSC" value="C727347 "/>
-      <property name="DigiKey" value="742-SIA430DJT-T1-GE3CT-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="ki_description" value="12A Id, 20V Vds, N-Channel MOSFET"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f9276518-7005-484e-bef0-2381fca63767</tstamps>
-    </comp>
     <comp ref="R1">
       <value>33K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
@@ -429,23 +429,23 @@
       <tstamps>5733040a-9e85-4196-9968-dd3a1e0af507</tstamps>
     </comp>
     <comp ref="R2">
-      <value>110K</value>
+      <value>33K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="DigiKey">CR0402-FX-1103GLFTR-ND</field>
-        <field name="LCSC">C413107</field>
-        <field name="Mouser">652-CR0402FX-1103GLF</field>
+        <field name="DigiKey">CR0402-FX-3302GLFTR-ND</field>
+        <field name="LCSC">C323721</field>
+        <field name="Mouser">652-CR0402FX-3302GLF</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C413107"/>
-      <property name="DigiKey" value="CR0402-FX-1103GLFTR-ND"/>
-      <property name="Mouser" value="652-CR0402FX-1103GLF"/>
+      <property name="LCSC" value="C323721"/>
+      <property name="DigiKey" value="CR0402-FX-3302GLFTR-ND"/>
+      <property name="Mouser" value="652-CR0402FX-3302GLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1787c2c9-73bf-4c1e-9a51-b819612437bf</tstamps>
+      <tstamps>209f3a6b-7231-42c0-a568-9410c19ba20f</tstamps>
     </comp>
     <comp ref="R3">
       <value>110K</value>
@@ -561,6 +561,44 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>37b224c2-d782-4ba3-b41b-62c9dc4f021b</tstamps>
     </comp>
+    <comp ref="R9">
+      <value>110K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="DigiKey">CR0402-FX-1103GLFTR-ND</field>
+        <field name="LCSC">C413107</field>
+        <field name="Mouser">652-CR0402FX-1103GLF</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C413107"/>
+      <property name="DigiKey" value="CR0402-FX-1103GLFTR-ND"/>
+      <property name="Mouser" value="652-CR0402FX-1103GLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e25ed76c-5112-4fc2-bff5-ef6cf50413f9</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>33K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="DigiKey">CR0402-FX-3302GLFTR-ND</field>
+        <field name="LCSC">C323721</field>
+        <field name="Mouser">652-CR0402FX-3302GLF</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C323721"/>
+      <property name="DigiKey" value="CR0402-FX-3302GLFTR-ND"/>
+      <property name="Mouser" value="652-CR0402FX-3302GLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92084f3d-a4f2-42e6-aa98-0aa27c01307e</tstamps>
+    </comp>
     <comp ref="R11">
       <value>33K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
@@ -637,6 +675,35 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>62498ddb-72cc-4e2d-bc2c-536b544b69f3</tstamps>
     </comp>
+    <comp ref="R15">
+      <value>110K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="DigiKey">CR0402-FX-1103GLFTR-ND</field>
+        <field name="LCSC">C413107</field>
+        <field name="Mouser">652-CR0402FX-1103GLF</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C413107"/>
+      <property name="DigiKey" value="CR0402-FX-1103GLFTR-ND"/>
+      <property name="Mouser" value="652-CR0402FX-1103GLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d92338c-905d-4dce-bd98-5c00a531bba0</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM73100</value>
+      <footprint>RPW0010A:Texas_VQFN-HR-10_2x2mm_P0.475mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm7310.pdf</datasheet>
+      <libsource lib="LM7310" part="LM73100" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2737aae-70b8-46a6-8557-6887721db31d</tstamps>
+    </comp>
     <comp ref="U3">
       <value>TVS0500DRV</value>
       <footprint>Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</footprint>
@@ -657,25 +724,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c0afc7f7-02cb-44b4-9390-f9d0699f822e</tstamps>
     </comp>
-    <comp ref="U5">
-      <value>TPS2413PW</value>
-      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/tps2412.pdf</datasheet>
-      <fields>
-        <field name="DigiKey">296-41732-2-ND</field>
-        <field name="LCSC">C2653634</field>
-        <field name="Mouser">595-TPS2413PWR</field>
-      </fields>
-      <libsource lib="Power_Management" part="TPS2412PW" description="N+1 and ORing Power Rail Controller, TSSOP-8"/>
-      <property name="DigiKey" value="296-41732-2-ND"/>
-      <property name="Mouser" value="595-TPS2413PWR"/>
-      <property name="LCSC" value="C2653634"/>
+    <comp ref="U4">
+      <value>LM73100</value>
+      <footprint>RPW0010A:Texas_VQFN-HR-10_2x2mm_P0.475mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm7310.pdf</datasheet>
+      <libsource lib="LM7310" part="LM73100" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="ki_description" value="N+1 and ORing Power Rail Controller, TSSOP-8"/>
-      <property name="ki_keywords" value="ideal-diode or-ing"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9260ab74-98cd-4db6-b61e-d4cbab464f90</tstamps>
+      <tstamps>17613ab7-86ea-46ca-b433-d8592c56d914</tstamps>
     </comp>
   </components>
   <libparts>
@@ -1000,6 +1057,27 @@
         <pin num="3" name="B" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="LM7310" part="LM73100">
+      <docs>https://www.ti.com/lit/ds/symlink/lm7310.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM73100</field>
+        <field name="Footprint">RPW0010A:Texas_VQFN-HR-10_2x2mm_P0.475mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lm7310.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN/UVLO" type="input"/>
+        <pin num="2" name="OVLO" type="input"/>
+        <pin num="3" name="PG" type="output"/>
+        <pin num="4" name="PGTH" type="input"/>
+        <pin num="5" name="IN" type="power_in"/>
+        <pin num="6" name="OUT" type="power_out"/>
+        <pin num="7" name="dVdt" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="IMON" type="output"/>
+        <pin num="10" name="DNC" type="unspecified"/>
+      </pins>
+    </libpart>
     <libpart lib="Mechanical" part="MountingHole">
       <description>Mounting Hole without connection</description>
       <docs>~</docs>
@@ -1011,29 +1089,6 @@
         <field name="Value">MountingHole</field>
         <field name="Datasheet">~</field>
       </fields>
-    </libpart>
-    <libpart lib="Power_Management" part="TPS2412PW">
-      <description>N+1 and ORing Power Rail Controller, TSSOP-8</description>
-      <docs>http://www.ti.com/lit/ds/symlink/tps2412.pdf</docs>
-      <footprints>
-        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
-        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TPS2412PW</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps2412.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VDD" type="power_in"/>
-        <pin num="2" name="RSET" type="passive"/>
-        <pin num="3" name="GND" type="passive"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="GATE" type="output"/>
-        <pin num="6" name="C" type="input"/>
-        <pin num="7" name="A" type="input"/>
-        <pin num="8" name="BYP" type="passive"/>
-      </pins>
     </libpart>
     <libpart lib="Power_Protection" part="TVS0500DRV">
       <description>Flat-Clamp Surge Protection Device. 5Vrwm, WSON-6</description>
@@ -1055,24 +1110,6 @@
         <pin num="5" name="IN" type="passive"/>
         <pin num="6" name="IN" type="passive"/>
         <pin num="7" name="GND" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Transistor_FET" part="SiA430DJT">
-      <description>12A Id, 20V Vds, N-Channel MOSFET</description>
-      <docs>https://www.vishay.com/docs/62991/sia430djt.pdf</docs>
-      <footprints>
-        <fp>Vishay*PowerPAK*SC70*Single*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">SiA430DJT</field>
-        <field name="Footprint">Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single</field>
-        <field name="Datasheet">https://www.vishay.com/docs/62991/sia430djt.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="D" type="passive"/>
-        <pin num="3" name="G" type="passive"/>
-        <pin num="4" name="S" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Transistor_FET" part="SiA449DJ">
@@ -1113,11 +1150,11 @@
     <library logical="Jumper">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
     </library>
+    <library logical="LM7310">
+      <uri>/Users/sreenieadara/Documents/ElectriPi/Components/LM7310/LM7310.kicad_sym</uri>
+    </library>
     <library logical="Mechanical">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
-    </library>
-    <library logical="Power_Management">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Management.kicad_sym</uri>
     </library>
     <library logical="Power_Protection">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Protection.kicad_sym</uri>
@@ -1129,24 +1166,25 @@
   <nets>
     <net code="1" name="+5V">
       <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="C9" pin="1" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="Q2" pin="4" pinfunction="S" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IN" pintype="power_in"/>
       <node ref="U3" pin="4" pinfunction="IN" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="IN" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="IN" pintype="passive"/>
-      <node ref="U5" pin="1" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U5" pin="7" pinfunction="A" pintype="input"/>
+      <node ref="U4" pin="5" pinfunction="IN" pintype="power_in"/>
     </net>
     <net code="2" name="5V_PI">
-      <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="Q2" pin="1" pinfunction="D" pintype="passive"/>
-      <node ref="U5" pin="6" pinfunction="C" pintype="input"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U4" pin="6" pinfunction="OUT" pintype="power_out"/>
     </net>
     <net code="3" name="BST">
       <node ref="C8" pin="1" pintype="passive"/>
@@ -1161,6 +1199,7 @@
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
@@ -1168,6 +1207,7 @@
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
@@ -1178,17 +1218,19 @@
       <node ref="IC2" pin="21" pinfunction="PGND_4" pintype="passive"/>
       <node ref="IC2" pin="7" pinfunction="PGND_1" pintype="passive"/>
       <node ref="IC2" pin="8" pinfunction="PGND_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="IMON" pintype="output"/>
       <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="7" pinfunction="GND" pintype="passive"/>
-      <node ref="U5" pin="3" pinfunction="GND" pintype="passive"/>
-      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="IMON" pintype="output"/>
     </net>
     <net code="6" name="Net-(D1-A2)">
       <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
@@ -1221,21 +1263,25 @@
       <node ref="IC2" pin="9" pinfunction="PGOOD" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(Q2-G)">
-      <node ref="Q2" pin="3" pinfunction="G" pintype="passive"/>
-      <node ref="U5" pin="5" pinfunction="GATE" pintype="output"/>
-    </net>
-    <net code="16" name="Net-(R1-Pad1)">
+    <net code="15" name="Net-(R1-Pad1)">
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(U5-BYP)">
-      <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="U5" pin="8" pinfunction="BYP" pintype="passive"/>
+    <net code="16" name="Net-(U1-PG)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PG" pintype="output"/>
+      <node ref="U4" pin="1" pinfunction="EN/UVLO" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="PGTH" pintype="input"/>
     </net>
-    <net code="18" name="Net-(U5-RSET)">
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="U5" pin="2" pinfunction="RSET" pintype="passive"/>
+    <net code="17" name="Net-(U1-dVdt)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="dVdt" pintype="output"/>
+    </net>
+    <net code="18" name="OVLO">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="OVLO" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="OVLO" pintype="input"/>
     </net>
     <net code="19" name="SW">
       <node ref="C8" pin="2" pintype="passive"/>
@@ -1244,13 +1290,19 @@
       <node ref="IC2" pin="6" pinfunction="SW_1" pintype="passive"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="20" name="VCC">
+    <net code="20" name="UVLO">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN/UVLO" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="PGTH" pintype="input"/>
+    </net>
+    <net code="21" name="VCC">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="IC2" pin="17" pinfunction="VCC" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="21" name="Vin">
+    <net code="22" name="Vin">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
@@ -1264,11 +1316,23 @@
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="unconnected-(D4-NC-Pad2)">
+    <net code="23" name="unconnected-(D4-NC-Pad2)">
       <node ref="D4" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="23" name="unconnected-(IC2-SS-Pad11)">
+    <net code="24" name="unconnected-(IC2-SS-Pad11)">
       <node ref="IC2" pin="11" pinfunction="SS" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-DNC-Pad10)">
+      <node ref="U1" pin="10" pinfunction="DNC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U4-DNC-Pad10)">
+      <node ref="U4" pin="10" pinfunction="DNC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U4-PG-Pad3)">
+      <node ref="U4" pin="3" pinfunction="PG" pintype="output+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U4-dVdt-Pad7)">
+      <node ref="U4" pin="7" pinfunction="dVdt" pintype="output+no_connect"/>
     </net>
   </nets>
 </export>

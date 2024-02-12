@@ -61,7 +61,7 @@
   (pad "9" smd roundrect (at 0.9 -0.225 270) (size 0.25 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp f69853c2-f412-42cb-be59-bda6f0821390))
   (pad "10" smd roundrect (at 0.725 -0.875) (size 0.25 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 21a4211e-57c9-4aaf-9926-bfd941bc7eb8))
   (pad "10" smd roundrect (at 0.9 -0.7 270) (size 0.3 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667) (tstamp 96dbe223-b8af-4ed2-bdf4-a966d26d42a2))
-  (model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_VQFN-HR-12_2x2.5mm_P0.5mm.wrl"
+  (model "${KIPRJMOD}/Components/LM7310/RPW0010A.pretty/VQFN-HR-10P.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
