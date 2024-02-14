@@ -6,7 +6,7 @@
     (property "Value" "LM73100" (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 0.635 5.715 0)
+    (property "Footprint" "RPW0010A:Texas_VQFN-HR-10_2x2mm_P0.475mm" (at 0.635 5.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm7310.pdf" (at 0 7.62 0)

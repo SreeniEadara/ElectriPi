@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch</source>
-    <date>Monday, February 12, 2024 at 01:07:59 AM</date>
+    <date>Tuesday, February 13, 2024 at 10:46:59 PM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -392,7 +392,7 @@
     <comp ref="Q1">
       <value>SiA471DJ</value>
       <footprint>Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single</footprint>
-      <datasheet>https://www.vishay.com/docs/76741/sia471dj.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/62644/sia449dj.pdf</datasheet>
       <fields>
         <field name="DigiKey">SIA471DJ-T1-GE3TR-ND</field>
         <field name="LCSC">C5918946</field>
