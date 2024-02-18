@@ -1,4 +1,4 @@
-### Footprint positions - created on Saturday, February 17, 2024 at 10:56:19 PM ###
+### Footprint positions - created on Sun Feb 18 13:35:06 2024 ###
 ### Printed by KiCad version 7.0.10
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -19,9 +19,9 @@ C17       0.1uF          C_0402_1005Metric                                   57.
 C18       100uF          CP_Elec_8x10                                        51.7000   -40.5000  180.0000  top
 D1        XMC7K24CA      D_SMC                                               49.7500   -50.2500  -90.0000  top
 D2        SMBJ5.0A       D_SMB                                               50.0000   -22.2500  180.0000  top
-D3        2.3V_20mA      LED_0603_1608Metric                                 64.0000   -21.4600   90.0000  top
+D3        2V_20mA        LED_0603_1608Metric                                 64.0000   -21.4600   90.0000  top
 D4        BZX84-C13      SOT-23                                              58.2500   -48.0000   90.0000  top
-D5        2.3V_20mA      LED_0603_1608Metric                                 64.0000   -24.6600  -90.0000  top
+D5        2V_20mA        LED_0603_1608Metric                                 64.0000   -24.6600  -90.0000  top
 IC2       TPS51397ARJER  QFN-20-1EP_3x3mm_P0.45mm_EP1.6x1.6mm_ThermalVias    57.5000   -30.5000   90.0000  top
 L1        1.8_uH         L_Vishay_IHLP-4040                                  47.0000   -30.5000  180.0000  top
 Q1        SiA471DJ       Vishay_PowerPAK_SC70-6L_Single                      54.9250   -49.1500  180.0000  top

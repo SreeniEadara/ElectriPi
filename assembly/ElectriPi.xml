@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\4iron\Documents\ElectriPi\ElectriPi.kicad_sch</source>
-    <date>2/18/2024 12:39:32 PM</date>
+    <date>2/18/2024 1:31:44 PM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -293,17 +293,17 @@
       <tstamps>f8a81895-3691-4edf-934c-b99188ab2c2b</tstamps>
     </comp>
     <comp ref="D3">
-      <value>2.3V 20mA</value>
+      <value>2V 20mA</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
-        <field name="DigiKey">754-1124-2-ND</field>
+        <field name="DigiKey">475-LOQ976-PS-25-0-20-R18TR-ND</field>
         <field name="LCSC">C72038</field>
-        <field name="Mouser"> 604-APT1608SYCK</field>
+        <field name="Mouser">720-LOQ976-PS-25</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="LCSC" value="C72038"/>
-      <property name="DigiKey" value="754-1124-2-ND"/>
-      <property name="Mouser" value=" 604-APT1608SYCK"/>
+      <property name="DigiKey" value="475-LOQ976-PS-25-0-20-R18TR-ND"/>
+      <property name="Mouser" value="720-LOQ976-PS-25"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -332,17 +332,17 @@
       <tstamps>0ecef47c-ef9c-4479-897e-f164f1b5637e</tstamps>
     </comp>
     <comp ref="D5">
-      <value>2.3V 20mA</value>
+      <value>2V 20mA</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
-        <field name="DigiKey">754-1124-2-ND</field>
+        <field name="DigiKey">475-LOQ976-PS-25-0-20-R18TR-ND</field>
         <field name="LCSC">C72038</field>
-        <field name="Mouser"> 604-APT1608SYCK</field>
+        <field name="Mouser">720-LOQ976-PS-25</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="LCSC" value="C72038"/>
-      <property name="DigiKey" value="754-1124-2-ND"/>
-      <property name="Mouser" value=" 604-APT1608SYCK"/>
+      <property name="DigiKey" value="475-LOQ976-PS-25-0-20-R18TR-ND"/>
+      <property name="Mouser" value="720-LOQ976-PS-25"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
