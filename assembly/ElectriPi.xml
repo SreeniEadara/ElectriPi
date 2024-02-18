@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch</source>
-    <date>Saturday, February 17, 2024 at 10:56:39 PM</date>
+    <source>C:\Users\4iron\Documents\ElectriPi\ElectriPi.kicad_sch</source>
+    <date>2/18/2024 12:39:32 PM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -698,7 +698,15 @@
       <value>LM73100</value>
       <footprint>RPW0010A:Texas_VQFN-HR-10_2x2mm_P0.475mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/lm7310.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">296-LM73100RPWRTR-ND</field>
+        <field name="LCSC">C3210761</field>
+        <field name="Mouser">595-LM73100RPWR</field>
+      </fields>
       <libsource lib="LM7310" part="LM73100" description=""/>
+      <property name="DigiKey" value="296-LM73100RPWRTR-ND"/>
+      <property name="Mouser" value="595-LM73100RPWR"/>
+      <property name="LCSC" value="C3210761"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -728,7 +736,15 @@
       <value>LM73100</value>
       <footprint>RPW0010A:Texas_VQFN-HR-10_2x2mm_P0.475mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/lm7310.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">296-LM73100RPWRTR-ND</field>
+        <field name="LCSC">C3210761</field>
+        <field name="Mouser">595-LM73100RPWR</field>
+      </fields>
       <libsource lib="LM7310" part="LM73100" description=""/>
+      <property name="DigiKey" value="296-LM73100RPWRTR-ND"/>
+      <property name="Mouser" value="595-LM73100RPWR"/>
+      <property name="LCSC" value="C3210761"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1133,34 +1149,34 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Diode">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
     </library>
     <library logical="FAN">
-      <uri>/Users/sreenieadara/Documents/ElectriPi/Components/FAN/FAN.kicad_sym</uri>
+      <uri>C:\Users\4iron\Documents\ElectriPi/Components/FAN/FAN.kicad_sym</uri>
     </library>
     <library logical="Jumper">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
     </library>
     <library logical="LM7310">
-      <uri>/Users/sreenieadara/Documents/ElectriPi/Components/LM7310/LM7310.kicad_sym</uri>
+      <uri>C:\Users\4iron\Documents\ElectriPi/Components/LM7310/LM7310.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
     </library>
     <library logical="Power_Protection">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Protection.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Power_Protection.kicad_sym</uri>
     </library>
     <library logical="Transistor_FET">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
     </library>
   </libraries>
   <nets>

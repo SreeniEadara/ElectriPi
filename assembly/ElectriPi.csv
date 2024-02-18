@@ -1,7 +1,7 @@
-"Source:","/Users/sreenieadara/Documents/ElectriPi/ElectriPi.kicad_sch"
-"Date:","Saturday, February 17, 2024 at 10:56:39 PM"
+"Source:","C:\Users\4iron\Documents\ElectriPi\ElectriPi.kicad_sch"
+"Date:","2/18/2024 12:39:32 PM"
 "Tool:","Eeschema 7.0.10"
-"Generator:","/Users/sreenieadara/Documents/bomgen/bomgen.py"
+"Generator:","C:\Users\4iron\Documents\bomgen/bomgen.py"
 "Component Count:","38"
 
 "Collated Components:"
@@ -26,5 +26,5 @@
 "17","5","R7, R9, R12, R13, R15","110K","Device:R_Small","Resistor_SMD:R_0402_1005Metric","~","","CR0402-FX-1103GLFTR-ND","C413107","652-CR0402FX-1103GLF"
 "18","1","R8","10K","Device:R","Resistor_SMD:R_0402_1005Metric","~","","CR0402-FX-1002GLFTR-ND","C270371","652-CR0402FX-1002GLF"
 "19","1","R14","15K","Device:R_Small","Resistor_SMD:R_0402_1005Metric","~","","CR0402-FX-1502GLFTR-ND","C319837","652-CR0402FX-1502GLF"
-"20","2","U1, U4","LM73100","LM7310:LM73100","RPW0010A:Texas_VQFN-HR-10_2x2mm_P0.475mm","https://www.ti.com/lit/ds/symlink/lm7310.pdf","","","",""
+"20","2","U1, U4","LM73100","LM7310:LM73100","RPW0010A:Texas_VQFN-HR-10_2x2mm_P0.475mm","https://www.ti.com/lit/ds/symlink/lm7310.pdf","","296-LM73100RPWRTR-ND","C3210761","595-LM73100RPWR"
 "21","1","U3","TVS0500DRV","Power_Protection:TVS0500DRV","Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm","http://www.ti.com/lit/ds/symlink/tvs0500.pdf","","296-48382-2-ND","C609571","595-TVS0500DRVR"
