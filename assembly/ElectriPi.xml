@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\4iron\Documents\ElectriPi\ElectriPi.kicad_sch</source>
-    <date>2/18/2024 1:31:44 PM</date>
+    <date>2/20/2024 5:28:09 PM</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -175,26 +175,6 @@
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c393f958-f3af-4347-b572-9e1900ff1f66</tstamps>
-    </comp>
-    <comp ref="C9">
-      <value>2200p</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="DigiKey">490-GCM155R71H222KA37JTR-ND</field>
-        <field name="LCSC">C126534</field>
-        <field name="Mouser">81-GCM155R71H222K37D</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="DigiKey" value="490-GCM155R71H222KA37JTR-ND"/>
-      <property name="Mouser" value="81-GCM155R71H222K37D"/>
-      <property name="LCSC" value="C126534"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ElectriPi.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>112cdba8-e2ac-486c-ad10-3e2aec7b460c</tstamps>
     </comp>
     <comp ref="C10">
       <value>0.1uF</value>
@@ -1223,7 +1203,6 @@
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
-      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
@@ -1290,7 +1269,6 @@
       <node ref="U4" pin="4" pinfunction="PGTH" pintype="input"/>
     </net>
     <net code="17" name="Net-(U1-dVdt)">
-      <node ref="C9" pin="1" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="dVdt" pintype="output"/>
     </net>
     <net code="18" name="OVLO">

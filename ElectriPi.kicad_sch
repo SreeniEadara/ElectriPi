@@ -3121,7 +3121,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 85.725 139.065 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 112cdba8-e2ac-486c-ad10-3e2aec7b460c)
     (property "Reference" "C9" (at 88.265 137.8013 0)
       (effects (font (size 1.27 1.27)) (justify left))
