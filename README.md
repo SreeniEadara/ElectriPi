@@ -1,5 +1,5 @@
 # ElectriPi
-A power supply shield for the Raspberry Pi. Capable of up to 50W (5V, 10A).
+A power supply shield for the Raspberry Pi. Capable of supplying up to 27.5W to the Raspberry Pi and 50W total including auxiliary output.
 
 ## Features
 - Indicator LEDs for power in and power out
@@ -12,7 +12,8 @@ A power supply shield for the Raspberry Pi. Capable of up to 50W (5V, 10A).
 - Auxillary 5V output
 
 ## Capabilities (predicted from component selection)
-- High output current (max 10A, sum of both outputs)
+- Capable of powering all current RPi models with high current peripherals (27.5W max supplied to the Pi)
+- High maximum auxiliary output power (22.5W or greater, depends on remainder of 50W total not consumed by RPi)
 - Wide input range (7V - 24V)
 
 TO BE TESTED:
